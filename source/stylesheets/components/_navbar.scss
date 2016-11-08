@@ -1,0 +1,20 @@
+.navbar-transparent {
+  padding: 1.5 * $base-spacing;
+  font-weight: $font-light;
+  font-size: $font-size-medium;
+
+  .nav {
+    padding-top: 0.3 * $base-spacing;
+  }
+
+  .nav-link {
+    padding: 0 1.2 * $base-spacing;
+    color: $color-text;
+  }
+}
+
+.navbar-logo {
+  background: url('/images/ragnarson-logo-negative.svg') center no-repeat;
+  height: $logo-height;
+  width: $logo-width;
+}
