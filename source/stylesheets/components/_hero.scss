@@ -1,0 +1,49 @@
+.hero {
+  background: linear-gradient(to right, $color-brand, $color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  height: 75vh;
+  width: 100%;
+
+  &:after {
+    background: $color-light;
+    content: '';
+    position: absolute;
+    bottom: -18%;
+    left: -20%;
+    height: 35%;
+    width: 150%;
+    transform: rotate(-6deg);
+  }
+}
+
+.hero-title {
+  color: $color-light;
+  font-weight: $font-light;
+  text-align: center;
+}
+
+.hero-title-catchword {
+  display: block;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.hero-img {
+  position: absolute;
+  height: 60%;
+  z-index: 2;
+
+  &.img-color {
+    left: 0;
+    top: 62%;
+  }
+
+  &.img-monochrome {
+    right: 0;
+    top: 40%;
+  }
+}
