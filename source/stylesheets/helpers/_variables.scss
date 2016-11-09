@@ -5,8 +5,10 @@ $color-brand: #d7345a;
 $color-primary: #3676cd;
 
 // Font Size
-$font-size-normal: 1em;
-$font-size-medium: 1.3em;
+$font-size-small: 0.8rem;
+$font-size-normal: 1rem;
+$font-size-medium: 1.3rem;
+$font-size-social-icons: 2rem;
 
 // Font Weight
 $font-light: 300;
@@ -17,3 +19,7 @@ $base-spacing: 1rem;
 // Image Size
 $logo-height: 2rem;
 $logo-width: 260px;
+$footer-logo-width: 60px;
+
+// Transitions
+$link-transition: all 0.25s ease-in-out;
