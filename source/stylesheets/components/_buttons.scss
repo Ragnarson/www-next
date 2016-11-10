@@ -1,0 +1,36 @@
+@mixin btn-base($background, $border, $box-shadow) {
+  background-color: $background;
+  border: $border;
+  box-shadow: $box-shadow;
+
+  border-radius: $btn-border-radius;
+  color: $color-light;
+  font-size: $font-size-normal;
+  font-weight: $font-light;
+  letter-spacing: 1px;
+  padding: $btn-padding;
+  margin: 0 0.5 * $base-spacing;
+  transition: $btn-transition;
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}
+
+.btn-brand {
+  @include btn-base($color-brand, 0, $btn-box-shadow);
+
+  &:hover {
+    background: darken($color-brand, 10%);
+  }
+}
+
+.btn-ghost {
+  @include btn-base(transparent, $btn-ghost-border, 0);
+
+  &:hover {
+    background: $color-light;;
+    color: $color-primary;
+  }
+}
