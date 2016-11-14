@@ -2,8 +2,8 @@
   padding: 1.5 * $base-spacing;
   font-weight: $font-light;
   font-size: $font-size-medium;
-  position: relative;
-  z-index: 1;
+  position: absolute;
+  width: 100%;
 
   .nav {
     padding-top: 0.3 * $base-spacing;
@@ -12,7 +12,6 @@
   .nav-link {
     padding: 0 1.2 * $base-spacing;
     color: $color-light;
-    letter-spacing: 2px;
   }
 }
 
@@ -20,9 +19,4 @@
   background: url('/images/ragnarson-logo-negative.svg') center no-repeat;
   height: $logo-height;
   width: $logo-width;
-}
-
-body {
-  font-family: 'Source Sans Pro', sans-serif;
-  letter-spacing: 1px;
 }
