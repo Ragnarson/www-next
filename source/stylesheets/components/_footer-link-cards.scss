@@ -1,0 +1,18 @@
+.footer-link-container {
+  position: relative;
+  top: 70px;
+}
+
+.footer-link-card {
+  display: flex;
+  align-items: center;
+  background: $color-light;
+  padding: $base-spacing;
+  margin: $base-spacing 0;
+  box-shadow: $box-shadow-card;
+}
+
+.footer-link {
+  font-size: $font-size-big;
+  font-weight: bold;
+}

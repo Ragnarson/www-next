@@ -1,0 +1,23 @@
+.link-brand,
+%link-brand {
+  color: $color-brand;
+  transition: $link-transition;
+
+  &:hover,
+  &:focus {
+    color: lighten($color-brand, 10%);
+    text-decoration: none;
+  }
+}
+
+.link-primary,
+%link-primary {
+  color: $color-primary;
+  transition: $link-transition;
+
+  &:hover,
+  &:focus {
+    color: lighten($color-primary, 10%);
+    text-decoration: none;
+  }
+}

@@ -28,6 +28,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-right-dir:before { content: '\e800'; } /* '' */
 .icon-github:before { content: '\e801'; } /* '' */
 .icon-google-plus:before { content: '\e802'; } /* '' */
 .icon-twitter:before { content: '\f309'; } /* '' */

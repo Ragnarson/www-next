@@ -8,6 +8,7 @@ $color-primary: #3676cd;
 $font-size-small: 0.8rem;
 $font-size-normal: 1rem;
 $font-size-medium: 1.3rem;
+$font-size-big: 1.8rem;
 $font-size-social-icons: 2rem;
 
 // Font Weight
@@ -23,3 +24,6 @@ $footer-logo-width: 60px;
 
 // Transitions
 $link-transition: all 0.25s ease-in-out;
+
+// Box Shadows
+$box-shadow-card: 0px 3px 21px 0px rgba(0,0,0,0.1);
