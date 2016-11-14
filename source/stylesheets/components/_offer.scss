@@ -1,0 +1,9 @@
+.offer {
+  position: relative;
+  z-index: 2;
+  color: $offer-text-color;
+
+  &-text-split {
+    white-space: pre;
+  }
+}
