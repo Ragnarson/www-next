@@ -4,6 +4,7 @@
   font-size: $font-size-medium;
   position: absolute;
   width: 100%;
+  z-index: 2;
 
   .nav {
     padding-top: 0.3 * $base-spacing;
