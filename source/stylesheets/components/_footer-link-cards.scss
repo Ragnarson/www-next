@@ -1,4 +1,9 @@
-.footer-link-container {
+.footer-link-cards {
+  background: $color-stable;
+  margin-top: -2 * $base-spacing;
+}
+
+.footer-link-cards-container {
   position: relative;
   top: 70px;
 }
@@ -10,6 +15,10 @@
   padding: $base-spacing;
   margin: $base-spacing 0;
   box-shadow: $box-shadow-card;
+}
+
+.footer-link-card-img {
+  height: $link-card-img-height;
 }
 
 .footer-link {

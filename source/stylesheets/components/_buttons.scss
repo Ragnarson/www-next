@@ -11,6 +11,7 @@
   padding: $btn-padding;
   margin: 0 0.5 * $base-spacing;
   transition: $btn-transition;
+  cursor: pointer;
 
   &:focus,
   &:active {

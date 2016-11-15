@@ -1,0 +1,15 @@
+.footer-contact {
+  background: $color-stable;
+  padding-top: 8 * $base-spacing;
+  text-align: center;
+
+  .btn-brand {
+    font-size: $font-size-big;
+  }
+}
+
+.footer-contact-teaser {
+  font-size: $font-size-medium;
+  margin: 0;
+  padding: $base-spacing;
+}
