@@ -46,14 +46,24 @@ helpers do
 
     image_tag(source, options.merge(srcset: srcset))
   end
-end
 
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+  def testimonial_image_tag(avatar)
+    image_tag "project/testimonial/#{avatar}", class: "testimonial-avatar rounded-circle"
+  end
+
+  def logo_image_tag(logo)
+    image_tag "project/logo/#{logo}"
+  end
+
+  def carousel_item_active(index)
+    klass = if index == 0
+      "active"
+    end
+
+    klass
+  end
+
+end
 
 # Build-specific configuration
 configure :build do

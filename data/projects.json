@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "BookingSync",
+    "link": "http://bookingsync.com",
+    "logo": "bookingsync.png",
+    "testimonial": {
+      "author": "Sébastien Grosjean, CEO",
+      "text": "After cooperating with many different web agencies, I finally came across Ragnarson. They provided me with meticulous and skilled developers who helped me achieve high quality work while meeting deadlines. They have been able to raise my expectations which help us do better for our customers.",
+      "avatar": "1.jpg"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Locafox",
+    "link": "https://www.locafox.de",
+    "logo": "locafox.png",
+    "testimonial": {
+      "author": "Rob Morgan, CTO",
+      "text": "Choosing to work with Ragnarson was crucial for the execution of our product. Through close collaboration we were able to rapidly launch an MVP in weeks, not months, test it and begin working on our greater platform.",
+      "avatar": "2.jpg"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Memorado",
+    "link": "http://memorado.de",
+    "logo": "memorado.png",
+    "testimonial": {
+      "author": "Marius Jeuck, Co-Founder",
+      "text": "Ragnarson did exactly what we were looking for. In less than 4 months of development they finished an MVP, three days before the deadline. It gave us a significant boost in convincing investors.",
+      "avatar": "3.jpg"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Restaurant Kritik",
+    "link": "http://restaurant-kritik.de",
+    "logo": "restaurant-kritik.png",
+    "testimonial": {
+      "author": "Carsten Jutzi, CEO",
+      "text": "Long term relationship with Ragnarson (almost 5 years) was very profitable for me. Developers and administrators constantly support our product, develop and maintain the application and take care of IT infrastructure. I can focus on my business goals and not worry about a technicality.",
+      "avatar": "4.png"
+    }
+  }
+]

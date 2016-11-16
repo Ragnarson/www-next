@@ -1,0 +1,28 @@
+div class="testimonials text-xs-center "
+  h1 class="pb-3"
+    | But don't just take our word for it
+
+  div class="carousel slide testimonial" data-ride="carousel" id="testimonial-carousel" data-interval="false"
+    div class="container"
+      div class="carousel-inner" role="listbox"
+        - data.projects.each_with_index do |project, index|
+          div class="carousel-item" class="#{carousel_item_active(index)}"
+            div class="testimonial-card mx-auto"
+              div class="testimonial-avatar-container"
+                = testimonial_image_tag project.testimonial.avatar
+              p class="testimonial-author font-weight-bold"
+                | #{project.testimonial.author}
+              p class="testimonial-content"
+                = project.testimonial.text
+              div class="testimonial-logo"
+                = link_to project.link
+                  = logo_image_tag project.logo
+
+      ol class="carousel-indicators testimonial-indicators"
+        - data.projects.each_with_index do |project, index|
+          li data-slide-to="#{index}" data-target="#testimonial-carousel"class="#{carousel_item_active(index)} testimonial-indicator"
+
+      a class="left carousel-control" data-slide="prev" href="#testimonial-carousel" role="button"
+        i class="icon-chevron-left" aria-hidden="true"
+      a class="right carousel-control" data-slide="next" href="#testimonial-carousel" role="button"
+        i class="icon-chevron-right" aria-hidden="true"
