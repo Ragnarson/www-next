@@ -9,14 +9,66 @@
     padding-top: 0.3 * $base-spacing;
   }
 
-  .nav-link {
-    padding: 0 1.2 * $base-spacing;
-    color: $color-light;
+  &.navbar-dark {
+    .navbar-nav {
+      .nav-link {
+        padding: 0 1.2 * $base-spacing;
+        color: $color-light;
+      }
+    }
+
+    .navbar-toggler {
+      border: none;
+      outline: none;
+    }
   }
+
+  @include media-breakpoint-down(md) {
+    .container {
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%;
+    }
+
+    .navbar-logo {
+      margin-left: 0.5 * $base-spacing;
+    }
+
+    .navbar-toggleable-md {
+      z-index: 1000;
+      position: relative;
+
+      .navbar-nav {
+        padding: $base-spacing;
+        background: $color-light;
+        text-align: center;
+
+        .nav-link {
+          padding: 0.2 * $base-spacing 0;
+          color: $color-dark;
+        }
+      }
+    }
+  }
+
+  @include media-breakpoint-down(xs) {
+    .navbar-logo {
+      height: $logo-height - 0.3rem;
+      width: $logo-width - 60px;
+    }
+  }
+
 }
 
 .navbar-logo {
   background: url('/images/ragnarson-logo-negative.svg') center no-repeat;
   height: $logo-height;
   width: $logo-width;
+}
+
+@include media-breakpoint-down(md) {
+  .navbar-transparent {
+    padding: $base-spacing 0;
+    text-align: right;
+  }
 }
