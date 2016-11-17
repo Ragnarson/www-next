@@ -7,6 +7,10 @@
 @import 'helpers/variables';
 @import 'helpers/links';
 @import 'helpers/fontello';
+@import 'helpers/shared';
+
+// Bootstrap overrides
+@import 'bootstrap-overrides/utilities';
 
 // Components
 @import 'components/buttons';
@@ -15,3 +19,4 @@
 @import 'components/footer';
 @import 'components/footer-link-cards';
 @import 'components/footer-contact';
+@import 'components/offer';
