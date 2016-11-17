@@ -43,6 +43,10 @@
     padding-top: $base-spacing;
     padding-bottom: $base-spacing;
   }
+
+  .footer-nav-logo {
+    margin-bottom: $spacer-x * 1.5;
+  }
 }
 
 .footer-nav-info {
