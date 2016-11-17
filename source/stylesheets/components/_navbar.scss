@@ -1,6 +1,5 @@
 .navbar-transparent {
   padding: 1.5 * $base-spacing;
-  font-weight: $font-light;
   font-size: $font-size-medium;
   position: absolute;
   width: 100%;
@@ -13,7 +12,7 @@
   &.navbar-dark {
     .navbar-nav {
       .nav-link {
-        padding: 0 1.2 * $base-spacing;
+        padding: 0 0.5 * $spacer-x;
         color: $color-light;
       }
     }

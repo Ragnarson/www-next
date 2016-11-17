@@ -21,7 +21,6 @@
 
 .hero-title {
   color: $color-light;
-  font-weight: $font-light;
   text-align: center;
   position: relative;
   z-index: 1;
@@ -30,5 +29,5 @@
 .hero-title-catchword {
   display: block;
   text-transform: uppercase;
-  font-weight: normal;
+  font-weight: $font-bold;
 }
