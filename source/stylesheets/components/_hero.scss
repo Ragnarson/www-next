@@ -10,7 +10,9 @@
   width: 100%;
 
   &:after {
-    background: linear-gradient(to right, $color-brand 0%, $color-primary 100%);
+    background: linear-gradient(to right,
+      saturate($color-brand, 20%) 0%,
+      saturate($color-primary, 30%) 100%);
     content: '';
     position: absolute;
     width: 100%;
