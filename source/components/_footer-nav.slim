@@ -1,10 +1,9 @@
 div class="footer-nav"
   div class="container"
     div class="row"
-      div class="col-lg-1 text-xs-center mb-1"
+      div class="col-lg-1"
         = image_tag("ragnarson-logo.svg", class: "footer-nav-logo")
       div class="col-lg-4 col-md-6"
-        h3 Ragnarson
         div class="row"
           div class="col-xs-6"
             ul class="footer-nav-list list-unstyled"
@@ -17,27 +16,16 @@ div class="footer-nav"
               li = link_to "Blog"
               li = link_to "Jobs"
               li = link_to "Brand Guidelines"
-      div class="col-lg-4 col-md-6 footer-nav-contact"
-        h3 Contact
-        table
-          tr
-            td
-              | Sales Team:
-            td
-              a href="mailto:sales@ragnarson.com"
-                | sales@ragnarson.com
-          tr
-            td
-              | General:
-            td
-              a href="mailto:biz@ragnarson.com"
-                | biz@ragnarson.com
-          tr
-            td
-              | Apply at:
-            td
-              a href="mailto:jobs@ragnarson.com"
-                | jobs@ragnarson.com
+      div class="col-lg-3 col-md-6 footer-nav-contact"
+        div
+          a href="mailto:sales@ragnarson.com"
+            | sales@ragnarson.com
+        div 
+          a href="mailto:biz@ragnarson.com"
+            | biz@ragnarson.com
+        div 
+          a href="mailto:jobs@ragnarson.com"
+            | jobs@ragnarson.com
         div class="footer-nav-contact-social hidden-md-down"
           = link_to "https://twitter.com/ragnarsoncom"
             i class="icon-twitter"
@@ -45,8 +33,6 @@ div class="footer-nav"
             i class="icon-github"
           = link_to "https://facebook.com/ragnarson"
             i class="icon-facebook"
-          = link_to "https://plus.google.com/100443212153441506644"
-            i class="icon-google-plus"
           = link_to "https://www.linkedin.com/company/560916"
             i class="icon-linkedin"
       div class="col-xs-12 hidden-lg-up text-xs-center"
@@ -57,12 +43,9 @@ div class="footer-nav"
             i class="icon-github"
           = link_to "https://facebook.com/ragnarson"
             i class="icon-facebook"
-          = link_to "https://plus.google.com/100443212153441506644"
-            i class="icon-google-plus"
           = link_to "https://www.linkedin.com/company/560916"
             i class="icon-linkedin"
       div class="col-lg-3 col-md-12"
-        h3 Company Info
         div class="footer-nav-info"
           | Ragnarson sp. z o.o. z siedzibą w Łodzi
             Targowa 35, 90-043 Łódź
