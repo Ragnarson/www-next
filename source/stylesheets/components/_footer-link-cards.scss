@@ -25,3 +25,13 @@
   font-size: $font-size-big;
   font-weight: bold;
 }
+
+@include media-breakpoint-down(sm) {
+  .footer-link-card-img {
+    width: 80px;
+  }
+
+  .footer-link {
+    font-size: $font-size-medium;
+  }
+}

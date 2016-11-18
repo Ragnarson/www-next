@@ -10,21 +10,17 @@
 
 .footer-nav-logo {
   width: $footer-logo-width;
+  margin-top: 7px; // FIXME: workaround to make it visually in line with text content
 }
 
-.footer-nav-list a {
-  color: lighten($color-dark, 30%);
+.footer-nav a {
+  color: $color-dark-muted;
   transition: $link-transition;
 
    &:hover {
     text-decoration: none;
-    color: lighten($color-dark, 60%);
+    color: $color-primary;
   }
-}
-
-.footer-nav-contact a {
-  @extend %link-primary;
-  padding-left: 0.5 * $base-spacing;
 }
 
 .footer-nav-contact-social {
@@ -47,10 +43,14 @@
     padding-top: $base-spacing;
     padding-bottom: $base-spacing;
   }
+
+  .footer-nav-logo {
+    margin-bottom: $spacer-x * 1.5;
+  }
 }
 
 .footer-nav-info {
   font-size: $font-size-small;
-  color: lighten($color-dark, 60%);
+  color: $color-dark-muted;
   white-space: pre-line;
 }

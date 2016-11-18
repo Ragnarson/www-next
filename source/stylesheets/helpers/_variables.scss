@@ -2,6 +2,7 @@
 $gray-dark: #595959;
 
 $color-dark: #262626;
+$color-dark-muted: lighten($color-dark, 30%);
 $color-light: #ffffff;
 $color-brand: #d7345a;
 $color-primary: #3676cd;
@@ -18,7 +19,7 @@ $font-size-small: 0.8rem;
 $font-size-normal: 1rem;
 $font-size-medium: 1.3rem;
 $font-size-big: 1.8rem;
-$font-size-social-icons: 2rem;
+$font-size-social-icons: 1.5rem;
 
 // Font Weight
 $font-light: 300;
