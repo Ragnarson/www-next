@@ -19,6 +19,7 @@ $font-size-small: 0.8rem;
 $font-size-normal: 1rem;
 $font-size-medium: 1.3rem;
 $font-size-big: 1.8rem;
+$font-size-large: 3rem;
 $font-size-social-icons: 1.7rem;
 
 // Font Weight
@@ -36,6 +37,7 @@ $footer-logo-width: 60px;
 $link-card-img-height: 150px;
 $testimonial-avatar-size: 60px;
 $testimonial-logo-height: 25px;
+$contact-avatar-size: 120px;
 
 // Transitions
 $link-transition: all 0.25s ease-in-out;
@@ -45,8 +47,8 @@ $box-shadow-card: 0px 3px 21px 0px rgba(0,0,0,0.1);
 
 // Butttons
 $btn-border-radius: 50px;
-$btn-transition: all 0.3s ease-in-out;
-$btn-padding: 0.5rem 2rem;
+$btn-transition: all 0.2s ease-in-out;
+$btn-padding: 0.5rem 1rem;
 $btn-box-shadow: 7px 10px 10px -7px rgba(0,0,0,0.27);
 $btn-ghost-border: 1px solid $color-light;
 

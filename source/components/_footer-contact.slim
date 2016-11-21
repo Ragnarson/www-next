@@ -1,5 +1,28 @@
 div class="footer-contact"
-  button class="btn-base btn-brand"
-    | Contact us
-  p class="footer-contact-teaser"
-    | Leave your number and we will call you back as soon as we can
+  div class="container"
+    div class="row"
+      div class="col-lg-5 col-md-12 my-2"
+        h1 class="footer-contact-title" Ready to work with us?
+        p class="lead"
+          ' Schedule a 30 minute meeting with one of the owners, or send an email to
+          a href="mailto:sales@ragnarson.com" class="link-primary" sales@ragnarson.com
+          | .
+      div class="col-lg-7 col-md-12"
+        div class="row"
+          div class="col-md-4 text-xs-center"
+            a href="" onclick="Calendly.showPopupWidget('https://calendly.com/macias/30min');return false;" class="link-primary figure"
+              = image_tag("footer/macias.jpg", class: "rounded-circle contact-avatar")
+              button class="btn-brand mb-2"
+                | Meet with Maciej
+
+          div class="col-md-4 text-xs-center"
+            a href="" onclick="Calendly.showPopupWidget('https://calendly.com/wijet/30min');return false;" class="link-primary figure"
+              = image_tag("footer/wijet.jpg", class: "rounded-circle contact-avatar")
+              button class="btn-brand mb-2"
+                | Meet with Mariusz
+
+          div class="col-md-4 text-xs-center"
+            a href="" onclick="Calendly.showPopupWidget('https://calendly.com/grk/30min');return false;" class="link-primary figure"
+              = image_tag("footer/grk.jpg", class: "rounded-circle contact-avatar")
+              button class="btn-brand mb-2"
+                | Meet with Grzesiek

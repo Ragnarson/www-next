@@ -1,15 +1,42 @@
 .footer-contact {
   background: $color-stable;
-  padding-top: 8 * $base-spacing;
+  padding-top: 10 * $base-spacing;
   text-align: center;
+}
 
-  .btn-brand {
-    font-size: $font-size-big;
+.footer-contact-title {
+  font-size: $font-size-large;
+  font-weight: $font-light;
+}
+
+.contact-avatar {
+  position: relative;
+  height: $contact-avatar-size;
+  width: $contact-avatar-size;
+  margin-bottom: .5 * $spacer-y;
+  transition: $btn-transition;
+}
+
+.figure:hover {
+  .contact-avatar {
+    box-shadow: $btn-box-shadow;
   }
 }
 
-.footer-contact-teaser {
-  font-size: $font-size-medium;
-  margin: 0;
-  padding: $base-spacing;
+@media (min-width: 769px) and (max-width: 1024px) {
+  .footer-contact .btn-brand {
+    margin: .3rem;
+    padding: .6rem;
+  }
+
+  .footer-contact-title {
+    font-size: 2.5rem;
+  }
+}
+
+@include media-breakpoint-only(xs) {
+.footer-contact .btn-brand {
+    margin: 0;
+    margin-left: .5rem;
+  }
 }
