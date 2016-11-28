@@ -7,3 +7,64 @@
     white-space: pre;
   }
 }
+
+.clients-logos {
+  .carousel-item {
+    height: 70px;
+  }
+}
+
+.clients-logos-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clients-logos-list {
+
+  [src$="memorado_1x.png"] {
+    height: 45px;
+    top: 15px;
+    position: relative;
+  }
+
+  [src$="locafox_1x.png"] {
+    height: 35px;
+    top: 10px;
+    position: relative;
+  }
+
+  [src$="masii_1x.png"] {
+    height: 35px;
+  }
+
+  [src$="vehiculum_1x.png"] {
+    height: 45px;
+    top: 10px;
+    position: relative;
+  }
+
+  [src$="heyjobs_1x.png"] {
+    height: 40px;
+    top: 10px;
+    position: relative;
+  }
+
+  [src$="booking-sync_1x.png"] {
+    height: 50px;
+    top: 7px;
+    position: relative;
+  }
+
+  [src$="stewardlyy_1x.png"] {
+    top: 5px;
+    position: relative;
+  }
+
+  [src$="shelly-cloud_1x.png"] {
+    height: 40px;
+    top: 10px;
+    position: relative;
+  }
+}
