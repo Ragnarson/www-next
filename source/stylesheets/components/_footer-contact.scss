@@ -1,5 +1,4 @@
 .footer-contact {
-  background: $color-stable;
   padding-top: 10 * $base-spacing;
   text-align: center;
 }
@@ -18,9 +17,15 @@
 }
 
 .figure:hover {
-  .contact-avatar {
+  .contact-avatar,
+  .btn-brand {
     box-shadow: $btn-box-shadow;
+    transform: translateY(-2px);
   }
+}
+
+.footer-contact .btn-brand:hover {
+  background: $color-brand;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {

@@ -21,3 +21,36 @@
     text-decoration: none;
   }
 }
+
+.link-toggle,
+.link-toggle.collapsed {
+  &:before {
+    padding-right: .5 * $spacer-x;
+    font-size: 1.1rem;
+  }
+
+  &:after {
+    font-family: 'fontello';
+  }
+}
+
+
+.link-toggle.collapsed {
+  &:before {
+    content: 'Read more';
+  }
+
+  &:after {
+    content: '\e805';
+  }
+}
+
+.link-toggle {
+  &:before {
+    content: 'Read less';
+  }
+
+  &:after {
+    content: '\e806';
+  }
+}
