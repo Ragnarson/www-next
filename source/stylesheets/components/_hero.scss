@@ -6,11 +6,22 @@
   justify-content: center;
   align-items: center;
   top: 0;
-  height: 450px;
+  height: 550px;
   width: 100%;
   position: relative;
+  overflow: hidden;
 
   &:after {
+    background: $color-light;
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    height: 100px;
+    width: 110vw;
+    transform: rotate(-3deg);
+  }
+
+  &:before {
     background: linear-gradient(to right,
       saturate($color-brand, 20%) 0%,
       saturate($color-primary, 30%) 100%);
