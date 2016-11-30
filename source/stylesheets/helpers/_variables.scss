@@ -50,7 +50,8 @@ $btn-border-radius: 50px;
 $btn-transition: all 0.2s ease-in-out;
 $btn-padding: 0.5rem 1rem;
 $btn-box-shadow: 7px 10px 10px -7px rgba(0,0,0,0.27);
-$btn-ghost-border: 1px solid $color-light;
+$btn-ghost-border-light: 1px solid $color-light;
+$btn-ghost-border-brand: 1px solid $color-brand;
 
 // Background
 $bg-faded: #f6f9fc;
