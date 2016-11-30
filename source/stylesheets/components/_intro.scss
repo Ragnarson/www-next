@@ -1,0 +1,13 @@
+.intro {
+  position: relative;
+  overflow: hidden;
+
+  &:after{
+    content: '';
+    width: 120vw;
+    height: 200px;
+    background: $bg-faded;
+    position: absolute;
+    transform: rotate(-3deg);
+  }
+}
