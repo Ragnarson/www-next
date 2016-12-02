@@ -1,0 +1,44 @@
+.intro,
+.about {
+  position: relative;
+  overflow: hidden;
+
+  &:after{
+    content: '';
+    width: 120vw;
+    height: 200px;
+    background: $bg-faded;
+    position: absolute;
+    transform: rotate(-3deg);
+  }
+}
+
+.about {
+  padding-bottom: 5 * $spacer-y;
+
+  &:after{
+    background: $color-light;
+  }
+}
+
+.img-devices {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  width: 700px;
+  z-index: 2;
+
+  @include media-breakpoint-down(lg) {
+    position: relative;
+    top: 0;
+    display: block;
+    margin: 0 auto;
+    padding: $spacer-x;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .about .col-lg-6 {
+    width: 100%;
+  }
+}
