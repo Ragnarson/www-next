@@ -24,13 +24,11 @@
 .img-devices {
   position: absolute;
   right: 0;
-  top: 50px;
-  width: 700px;
+  width: 600px;
   z-index: 2;
 
   @include media-breakpoint-down(lg) {
     position: relative;
-    top: 0;
     display: block;
     margin: 0 auto;
     padding: $spacer-x;
