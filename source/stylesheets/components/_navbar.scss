@@ -1,29 +1,71 @@
-.navbar-transparent {
+.navbar {
   padding: 1.5 * $base-spacing;
   font-size: $font-size-medium;
-  position: absolute;
-  width: 100%;
-  z-index: 2;
 
   .nav {
     padding-top: 0.3 * $base-spacing;
   }
 
-  &.navbar-dark {
-    .navbar-nav {
-      .nav-link {
-        padding: 0 0.5 * $spacer-x;
-        color: $color-light;
-      }
-    }
-
-    .navbar-toggler {
-      border: none;
-      outline: none;
-    }
+  &.navbar-dark .navbar-nav .nav-link {
+    padding: 0 0.5 * $spacer-x;
+    color: $color-dark;
   }
 
-  @include media-breakpoint-down(md) {
+  .navbar-toggler,
+  .navbar-toggler:focus {
+    border: none;
+    outline: none;
+    color: $color-dark;
+    font-size: 1.2 * $font-size-big;
+    width: auto;
+    height: auto;
+    padding: 0;
+  }
+
+  @include media-breakpoint-down(xs) {
+    .navbar-logo {
+      height: $logo-height - 0.3rem;
+      width: $logo-width - 60px;
+    }
+  }
+}
+
+// Navbar light with transparent background
+.navbar-transparent {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+
+  &.navbar-dark .navbar-nav .nav-link {
+    color: $color-light;
+  }
+
+  .navbar-toggler,
+  .navbar-toggler:focus {
+    color: $color-light;
+  }
+}
+
+// Navbar logo
+.navbar-logo {
+  height: $logo-height;
+  width: $logo-width;
+}
+
+.navbar-transparent-logo {
+  background: url('/images/ragnarson-logo-negative.svg') center no-repeat;
+}
+
+.navbar-default-logo {
+  background: url('/images/ragnarson-logo-default.svg') center no-repeat;
+}
+
+@include media-breakpoint-down(md) {
+  .navbar,
+  .navbar-transparent {
+    padding: $base-spacing 0;
+    text-align: right;
+
     .container {
       padding-left: 0;
       padding-right: 0;
@@ -49,26 +91,5 @@
         }
       }
     }
-  }
-
-  @include media-breakpoint-down(xs) {
-    .navbar-logo {
-      height: $logo-height - 0.3rem;
-      width: $logo-width - 60px;
-    }
-  }
-
-}
-
-.navbar-logo {
-  background: url('/images/ragnarson-logo-negative.svg') center no-repeat;
-  height: $logo-height;
-  width: $logo-width;
-}
-
-@include media-breakpoint-down(md) {
-  .navbar-transparent {
-    padding: $base-spacing 0;
-    text-align: right;
   }
 }
