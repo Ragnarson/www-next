@@ -45,3 +45,10 @@
   display: block;
   text-transform: uppercase;
 }
+
+@include media-breakpoint-down(xs) {
+  .hero-title {
+    font-size: $font-size-big;
+    padding: 0 $spacer-x;
+  }
+}
