@@ -38,7 +38,7 @@
   background: $color-light;
   box-shadow: $box-shadow-card;
   padding: 3 * $spacer-y 5 * $spacer-x;
-  min-height: 265px;
+  min-height: 313px;
 }
 
 .testimonial-avatar-container {
@@ -62,9 +62,13 @@
   color: $color-dark-muted;
 }
 
-.testimonial-logo img {
-  height: $testimonial-logo-height;
-  margin-bottom: $spacer-y;
+.testimonial-logo {
+  padding-top: $base-spacing;
+
+  img {
+    height: $testimonial-logo-height;
+    margin-bottom: $spacer-y;
+  }
 }
 
 @include media-breakpoint-down(md) {
