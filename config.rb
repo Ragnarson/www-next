@@ -39,7 +39,7 @@ helpers do
   # Will assume there is a 2x and 3x version and provide those automagically.
   #
   def image_set_tag_3x(source, options = {})
-    srcset = [ 2, 3 ].map { |num|
+    srcset = [2, 3].map { |num|
       name = source.sub("_1x.", "_#{num}x.")
       "#{image_path(name)} #{num}x"
     }.join(", ")
@@ -56,13 +56,8 @@ helpers do
   end
 
   def carousel_item_active(index)
-    klass = if index == 0
-      "active"
-    end
-
-    klass
+    "active" if index.zero?
   end
-
 end
 
 # Build-specific configuration
