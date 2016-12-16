@@ -6,4 +6,13 @@ $(function() {
 
     $("html, body").animate({scrollTop: offset.top}, 500);
   });
+
+
+  $(".footer-contact a.link-primary[onclick]").on("click", function() {
+    var calendlyUrl = $(this).attr("onclick").match(/\('(.*)'\)/)[1];
+
+    if(calendlyUrl) {
+      window.ga("send", "event", "Calendly", "click", calendlyUrl);
+    }
+  });
 });
