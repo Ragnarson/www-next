@@ -1,3 +1,7 @@
+html, body {
+  overflow-x: hidden;
+}
+
 .content-headers {
   color: $headers-color;
   font-weight: bold;
