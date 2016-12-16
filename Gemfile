@@ -17,7 +17,7 @@ gem 'middleman-livereload'
 gem 'middleman-sprockets', '4.0.0.rc.3'
 gem 'middleman-autoprefixer'
 gem 'middleman-jquery', '~> 2.1', '>= 2.1.1'
-gem 'middleman-deploy'
+gem 'middleman-deploy', '>= 2.0.0.pre.alpha'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.0'
