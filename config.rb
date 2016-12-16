@@ -60,13 +60,15 @@ helpers do
   end
 end
 
-# Build-specific configuration
 configure :build do
-  # Minify CSS on build
   activate :minify_css
-
-  # Minify Javascript on build
   activate :minify_javascript
-
   activate :autoprefixer
+  activate :asset_hash
+end
+
+activate :deploy do |deploy|
+  deploy.build_before = true
+  deploy.method = :git
+  deploy.strategy = :force_push
 end
