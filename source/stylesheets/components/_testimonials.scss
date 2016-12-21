@@ -2,6 +2,7 @@
   position: relative;
   top: 4 * $spacer-y;
   z-index: 2;
+  overflow-x: hidden;
 
   .carousel-inner {
     overflow: initial;
