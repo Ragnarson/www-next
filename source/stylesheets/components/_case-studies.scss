@@ -1,0 +1,64 @@
+.case-study-card {
+  border-radius: $border-radius;
+  background-color: #ffffff;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.12);
+  margin: $base-spacing 0;
+
+  .content {
+    padding: $base-spacing;
+  }
+}
+
+.case-study-card-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba($color-brand, 0.9);
+  border-top-left-radius: $border-radius;
+  border-top-right-radius: $border-radius;
+  text-align: center;
+  padding-top: 30%;
+  font-size: 1.5em;
+  opacity: 0;
+  transition: $link-transition;
+
+  &:hover {
+    text-decoration: none;
+    opacity: 1;
+  }
+
+  span {
+    color: $color-brand;
+    background: #fff;
+    padding: 0.5 * $base-spacing 2 * $base-spacing;
+    border-radius: 100px;
+    font-weight: 600;
+  }
+}
+
+.case-study-hero {
+  top: 0;
+  height: 435px;
+  width: 100%;
+  position: relative;
+  background-color: $color-primary;
+  overflow: hidden;
+}
+
+.case-study-hero-screen {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 540px;
+  box-shadow: 0px 6px 22px 0px rgba(0,0,0,0.33);
+}
+
+.case-study-hero-screen-1 {
+  transform: translate(-80%, 10%);
+}
+
+.case-study-hero-screen-2 {
+  transform: translate(0%, 30%);
+}

@@ -1,0 +1,14 @@
+div class="case-study-card"
+  div class="relative-container"
+    = partial "components/fake-browser", locals: { location: case_study["name"] }
+    div class="relative-container"
+      = case_study_image_tag "#{case_study["image"]}/#{case_study["image"]}-1.png", class: "img-fluid"
+      div class="bottom-inset-shadow"
+    = link_to case_study_path(case_study_key), class: "case-study-card-overlay" do
+      span See case study
+
+  div class="content"
+    h3 class="name" = case_study["name"]
+    div class="summary"
+      = case_study_summary(case_study["what-it-does"])
+    = link_to "Read more →", case_study_path(case_study_key), class: "btn btn-inverse mt-1"

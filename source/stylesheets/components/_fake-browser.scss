@@ -1,0 +1,52 @@
+.fake-browser {
+  height: 24px;
+  background-image: linear-gradient(to top, #d2d0d2, #e9e7e9);
+  border-top-left-radius: $border-radius;
+  border-top-right-radius: $border-radius;
+  position: relative;
+}
+
+.fake-browser-button {
+  width: 9px;
+  height: 9px;
+  border: solid 1px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 4px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.fake-browser-button-1 {
+  background-color: #ff5d5d;
+  border-color: #ed3e3e;
+  margin-left: 6px;
+}
+
+.fake-browser-button-2 {
+  background-color: #feb13d;
+  border-color: #eba02f;
+}
+
+.fake-browser-button-3 {
+  background-color: #31cd95;
+  border-color: #29af7f;
+}
+
+.fake-browser-location {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 215px;
+  height: 12px;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #ffffff;
+  font-size: 8px;
+  color: rgba(0, 0, 0, 0.5);
+}

@@ -2,7 +2,6 @@
   position: relative;
   top: 4 * $spacer-y;
   z-index: 2;
-  overflow-x: hidden;
 
   .carousel-inner {
     overflow: initial;
@@ -39,7 +38,12 @@
   background: $color-light;
   box-shadow: $box-shadow-card;
   padding: 3 * $spacer-y 5 * $spacer-x;
-  min-height: 313px;
+}
+
+.carousel {
+  .testimonial-card {
+    min-height: 313px;
+  }
 }
 
 .testimonial-avatar-container {
@@ -78,8 +82,13 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1600px) {
+@media (min-width: 768px){
   .testimonial-card  {
     width: 75%;
+    max-width: 750px;
   }
+}
+
+.testimonials {
+  overflow-x: hidden;
 }
