@@ -27,6 +27,15 @@ end
 
 activate :sprockets
 
+# Cloudflare adds a 4 hour cache to all assets by default, which we don't want for
+# files like the how we work PDF, and we want even longer times for assets with a hash.
+#
+# There's no way to use a regex in Cloudflare's Page Rules, so a simple workaround is to add
+# this -c0 prefix to the hash, which is unlikely to appear in any other file name.
+# Then we configure Cloudflare to cache files matching *-c0*.* for a month, and remove caching
+# for all other assets.
+activate :asset_hash, prefix: "c0"
+
 ###
 # Helpers
 ###
@@ -64,7 +73,6 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :autoprefixer
-  activate :asset_hash
 end
 
 activate :deploy do |deploy|
