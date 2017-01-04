@@ -5,15 +5,11 @@ html lang="en"
     meta charset="utf-8"
     meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"
 
-    meta property="og:title" content="Ragnarson"
-    meta property="og:type" content="website"
-    meta property="og:image" content="http://ragnarson.com/#{image_path "website-embed.png"}"
-    meta property="og:description" content="We are Ruby and JavaScript developers specialized in building web applications for startups since 2006."
+    title Ragnarson - Ruby on Rails, JavaScript and DevOps teams for hire
 
     meta name="description" content="We are Ruby and JavaScript developers specialized in building web applications for startups since 2006."
 
-    link href="https://calendly.com/assets/external/widget.css" rel="stylesheet"
-    script src="https://calendly.com/assets/external/widget.js" type="text/javascript"
+    = stylesheet_link_tag "all"
 
     link rel="shortcut icon" type="image/png" href="/favicon-152.png"
     link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png"
@@ -21,12 +17,16 @@ html lang="en"
     link rel="apple-touch-icon" sizes="32x32" href="/favicon-32.png"
     link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico"
 
-    title Ragnarson - Ruby on Rails, JavaScript and DevOps teams for hire
-
-    = stylesheet_link_tag "all"
-    = javascript_include_tag "all"
+    meta property="og:title" content="Ragnarson"
+    meta property="og:type" content="website"
+    meta property="og:image" content="http://ragnarson.com/#{image_path "website-embed.png"}"
+    meta property="og:description" content="We are Ruby and JavaScript developers specialized in building web applications for startups since 2006."
 
   body
     = yield
     = partial "components/footer"
     = partial "components/analytics"
+
+    = javascript_include_tag "all"
+    script src="https://calendly.com/assets/external/widget.js" type="text/javascript" async=true
+    link href="https://calendly.com/assets/external/widget.css" rel="stylesheet"
