@@ -1,3 +1,14 @@
 .bg-faded {
   background-color: $bg-faded;
 }
+
+.img-grayscale {
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: $link-transition;
+
+  &:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+  }
+}
