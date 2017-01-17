@@ -1,5 +1,6 @@
 {
   "memorado": {
+    "slug": "memorado",
     "name": "Memorado",
     "image": "memorado",
     "what-it-does": "Working out the body is a popular daily routine for many people. It helps them to keep in shape, relax and stay healthy. It is possible to do the same for your brain in order to enhance your memory and concentration abilities. Memorado provides you with an on-line training and games specifically designed for this purpose.",
@@ -27,6 +28,7 @@
     "color-end": "#F2901A"
   },
   "bookingsync": {
+    "slug": "bookingsync",
     "name": "BookingSync",
     "image": "bookingsync",
     "what-it-does": "BookingSync is a vacation rental software dedicated for property managers which solves the problem of renting properties. There are multiple channels used by  travellers to make reservations, however, rentals management without a centralized application is highly cumbersome. BookingSync solves exactly that problem seamlessly and improves marketing process. Thanks to BookingSync, property owners and agents are able to save time and book more.",
@@ -49,6 +51,7 @@
     "color-end": "#14A1DF"
   },
   "certace": {
+    "slug": "certace",
     "name": "Certace",
     "image": "certace",
     "what-it-does": "certace is the leading digital marketplace for data science projects. By connecting ace data experts (Machine Learning Scientists, Data Architects, Data Engineers, Information Strategists etc.) with exciting business projects or permanent jobs, certace helps organizations advance through descriptive, predictive and prescriptive data insights. Whether it is defining a data roadmap or creating a proof of conecpt (POC), certace finds the right expert for their clients without incurring the long-term costs associated with a permanent hire.",
@@ -72,6 +75,7 @@
     "color-end": "#2F769A"
   },
   "vehiculum": {
+    "slug": "vehiculum",
     "name": "Vehiculum",
     "image": "vehiculum",
     "what-it-does": "Vehiculum is the first digital solution hassle-free car leasing. The platform empowers customers to compare multiple models and leasing offers in real-time. Beside the price comparison it also offer additional features such as contract management, which mainly supports companies with small fleets to manage their carfleet.",

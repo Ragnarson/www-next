@@ -23,7 +23,7 @@ div class="section bg-faded pt-3 pb-3"
     h1 Business initiatives
     p class="lead" = case_study["business-initiatives"]     
     
-div class="section pt-3 pb-3"
+div class="section pt-3"
   div class="container"
     div class="row"
       div class="col-md-6"
@@ -38,19 +38,24 @@ div class="section pt-3 pb-3"
             li class="mt-1" = point
 
 div class="section"
-  div class="testimonials text-xs-center"
-    - project = find_project(case_study["project-id"])
-    div class="testimonial-card mx-auto"
-      div class="testimonial-avatar-container"
-        = testimonial_image_tag project.testimonial.avatar
-      p class="testimonial-author font-weight-bold"
-        | #{project.testimonial.author}
-      p class="testimonial-content"
-        = project.testimonial.text
-      div class="testimonial-logo"
-        = link_to project.link
-          = logo_image_tag project.logo
+  div class="testimonials text-xs-center pt-3 mb-3"
+    div class="relative-container mb-3"
+      - project = find_project(case_study["project-id"])
+      div class="testimonial-card mx-auto"
+        div class="testimonial-avatar-container"
+          = testimonial_image_tag project.testimonial.avatar
+        p class="testimonial-author font-weight-bold"
+          | #{project.testimonial.author}
+        p class="testimonial-content"
+          = project.testimonial.text
+        div class="testimonial-logo"
+          = link_to project.link
+            = logo_image_tag project.logo
 
-div class="section pt-3 pb-3 clearfix"
-  a href="#" previous
-  a href="#" next
+div class="section pt-3 pb-3"
+  div class="container"
+    div class="row"
+      div class="col-xs-6"
+        = link_to "&#9664; #{previous_case_study["name"]}", case_study_path(previous_case_study["slug"]), class: "card card-link"
+      div class="col-xs-6"
+        = link_to "#{next_case_study["name"]} &#9654;", case_study_path(next_case_study["slug"]), class: "card card-link text-xs-right"

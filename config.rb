@@ -18,10 +18,16 @@ require "slim"
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
-data["case-studies"].each_pair do |key, case_study|
+# @app.data is a workaround to get an actual array of data within config.rb
+case_studies = @app.data["case-studies"].to_a
+case_studies.each_with_index do |(key, case_study), index|
   proxy "/case-studies/#{key}.html",
         "/case-study.html",
-        locals: { case_study: case_study },
+        locals: {
+          case_study: case_study,
+          next_case_study: case_studies[(index + 1) % case_studies.size].last,
+          previous_case_study: case_studies[index - 1].last
+        },
         ignore: true
 end
 

@@ -21,7 +21,7 @@
 }
 
 .testimonial-indicators {
-  bottom: 0;
+  bottom: $spacer-y;
 
   .testimonial-indicator {
     margin: 0 .5 * $spacer-x;
@@ -35,9 +35,8 @@
 }
 
 .testimonial-card {
-  background: $color-light;
-  box-shadow: $box-shadow-card;
-  padding: 3 * $spacer-y 5 * $spacer-x;
+  @extend .card;
+  padding: 3 * $spacer-y 5 * $spacer-x !important;
 }
 
 .carousel {
