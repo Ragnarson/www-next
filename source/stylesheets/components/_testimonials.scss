@@ -76,13 +76,13 @@
 }
 
 @include media-breakpoint-down(md) {
-  .testimonial-card {
+  .testimonial-content {
     padding: 3 * $spacer-y $spacer-x;
   }
 }
 
 @media (min-width: 768px){
-  .testimonial-card  {
+  .testimonial-content  {
     width: 75%;
     max-width: 750px;
   }

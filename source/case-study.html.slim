@@ -37,22 +37,23 @@ div class="section pt-3"
           - case_study["what-they-achieved"].each do |point|
             li class="mt-1" = point
 
-div class="section"
-  div class="testimonials text-xs-center pt-3 mb-3"
-    div class="relative-container mb-3"
-      - project = find_project(case_study["project-id"])
-      div class="testimonial-card mx-auto"
-        div class="testimonial-avatar-container"
-          = testimonial_image_tag project.testimonial.avatar
-        p class="testimonial-author font-weight-bold"
-          | #{project.testimonial.author}
-        p class="testimonial-content"
-          = project.testimonial.text
-        div class="testimonial-logo"
-          = link_to project.link
-            = logo_image_tag project.logo
+div class="section mt-3"
+  div class="container"
+    div class="text-xs-center pt-3 mb-3"
+      div class="relative-container"
+        - project = find_project(case_study["project-id"])
+        div class="testimonial-card"
+          div class="testimonial-avatar-container"
+            = testimonial_image_tag project.testimonial.avatar
+          p class="testimonial-author font-weight-bold"
+            | #{project.testimonial.author}
+          p class="testimonial-content mx-auto"
+            = project.testimonial.text
+          div class="testimonial-logo"
+            = link_to project.link
+              = logo_image_tag project.logo
 
-div class="section pt-3 pb-3"
+div class="section pt-1 pb-3"
   div class="container"
     div class="row"
       div class="col-xs-6"
