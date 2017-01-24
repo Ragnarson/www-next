@@ -19,14 +19,14 @@ require "slim"
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 # @app.data is a workaround to get an actual array of data within config.rb
-case_studies = @app.data["case-studies"].to_a
-case_studies.each_with_index do |(key, case_study), index|
-  proxy "/case-studies/#{key}.html",
+case_studies = @app.data["case-studies"]
+case_studies.each_with_index do |case_study, index|
+  proxy "/case-studies/#{case_study["slug"]}.html",
         "/case-study.html",
         locals: {
           case_study: case_study,
-          next_case_study: case_studies[(index + 1) % case_studies.size].last,
-          previous_case_study: case_studies[index - 1].last
+          next_case_study: case_studies[(index + 1) % case_studies.size],
+          previous_case_study: case_studies[index - 1]
         },
         ignore: true
 end
@@ -89,8 +89,8 @@ helpers do
     end
   end
 
-  def case_study_path(case_study_key)
-    "/case-studies/#{case_study_key}.html"
+  def case_study_path(case_study)
+    "/case-studies/#{case_study["slug"]}.html"
   end
 
   def carousel_item_active(index)

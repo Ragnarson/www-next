@@ -1,5 +1,5 @@
-{
-  "memorado": {
+[
+  {
     "slug": "memorado",
     "name": "Memorado",
     "image": "memorado",
@@ -27,7 +27,7 @@
     "color-start": "#f6a623",
     "color-end": "#F2901A"
   },
-  "bookingsync": {
+  {
     "slug": "bookingsync",
     "name": "BookingSync",
     "image": "bookingsync",
@@ -50,7 +50,7 @@
     "color-start": "#4CC7FF",
     "color-end": "#14A1DF"
   },
-  "certace": {
+  {
     "slug": "certace",
     "name": "Certace",
     "image": "certace",
@@ -74,7 +74,7 @@
     "color-start": "#4497C1",
     "color-end": "#2F769A"
   },
-  "vehiculum": {
+  {
     "slug": "vehiculum",
     "name": "Vehiculum",
     "image": "vehiculum",
@@ -106,4 +106,4 @@
     "color-start": "#D5C19D",
     "color-end": "#C6AA79"
   }
-}
+]
