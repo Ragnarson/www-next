@@ -9,10 +9,18 @@
 
 .card-link {
   transition: $link-transition;
+  font-size: 1.5em;
 
-  &:hover {
+  &:hover, &:active, &:focus {
     text-decoration: none;
     transform: translateY(-2px);
     box-shadow: $box-shadow-card-raised;
+  }
+}
+
+.card-link-inverse {
+  color: #fff;
+  &:hover, &:active, &:focus {
+    color: #fff;
   }
 }
