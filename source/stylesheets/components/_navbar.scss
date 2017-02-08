@@ -1,5 +1,6 @@
 .navbar {
-  padding: 1.5 * $base-spacing;
+  padding-top: 1.5 * $base-spacing;
+  padding-bottom: 1.5 * $base-spacing;
   font-size: $font-size-medium;
 
   .nav {
@@ -34,7 +35,8 @@
 // Navbar light with transparent background
 .navbar-transparent {
   position: absolute;
-  width: 100%;
+  left: 0;
+  right: 0;
   z-index: 2;
 
   &.navbar-dark .navbar-nav .nav-link {
@@ -64,33 +66,19 @@
 @include media-breakpoint-down(md) {
   .navbar,
   .navbar-transparent {
-    padding: $base-spacing 0;
-    text-align: right;
+    .navbar-nav {
+      padding: $base-spacing;
+      text-align: center;
 
-    .container {
-      padding-left: 0;
-      padding-right: 0;
-      width: 100%;
-    }
-
-    .navbar-logo {
-      margin-left: 0.5 * $base-spacing;
-    }
-
-    .navbar-toggleable-md {
-      z-index: 1000;
-      position: relative;
-
-      .navbar-nav {
-        padding: $base-spacing;
-        background: $color-light;
-        text-align: center;
-
-        .nav-link {
-          padding: 0.2 * $base-spacing 0;
-          color: $color-dark;
-        }
+      .nav-link {
+        padding: 0.2 * $base-spacing 0;
+        color: $color-dark;
       }
+    }
+  }
+  .navbar-transparent {
+    .navbar-nav {
+      background: rgba(0, 0, 0, 0.8);
     }
   }
 }

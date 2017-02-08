@@ -1,13 +1,13 @@
-div class="testimonials text-xs-center"
+div class="testimonials text-center"
   div class="container"
-    h1 class="display-4 pb-3 px-1"
+    h1 class="display-4 pb-5"
       | But don't just take our word for it
 
-    div class="carousel slide testimonial pt-2 pb-1" data-ride="carousel" id="testimonial-carousel" data-interval="6000"
+    div class="carousel slide testimonial pt-4 pb-3" data-ride="carousel" id="testimonial-carousel" data-interval="6000"
       div class="carousel-inner" role="listbox"
         - data.projects.each_with_index do |project, index|
           div class="carousel-item" class=carousel_item_active(index)
-            div class="testimonial-card"
+            div class="testimonial-card mx-auto"
               div class="testimonial-avatar-container"
                 = testimonial_image_tag project.testimonial.avatar
               p class="testimonial-author font-weight-bold"
@@ -20,9 +20,9 @@ div class="testimonials text-xs-center"
 
       ol class="carousel-indicators testimonial-indicators"
         - data.projects.each_with_index do |project, index|
-          li data-slide-to="#{index}" data-target="#testimonial-carousel"class="#{carousel_item_active(index)} testimonial-indicator"
+          li data-slide-to="#{index}" data-target="#testimonial-carousel" class="#{carousel_item_active(index)} testimonial-indicator"
 
-      a class="left carousel-control" data-slide="prev" href="#testimonial-carousel" role="button"
+      a class="carousel-control-prev" data-slide="prev" href="#testimonial-carousel" role="button"
         i class="icon-chevron-left" aria-hidden="true"
-      a class="right carousel-control" data-slide="next" href="#testimonial-carousel" role="button"
+      a class="carousel-control-next" data-slide="next" href="#testimonial-carousel" role="button"
         i class="icon-chevron-right" aria-hidden="true"

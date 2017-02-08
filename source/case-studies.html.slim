@@ -2,9 +2,6 @@
 
 div class="container"
   div class="row"
-    / h1.display-4.px-1.mt-3.text-xs-center
-      / | Case studies
-  div class="row"
     - data["case-studies"].each do |case_study|
       div class="col-md-6 col-sm-12"
         = partial("components/case-study-card", locals: { case_study: case_study })

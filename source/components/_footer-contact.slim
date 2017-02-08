@@ -7,7 +7,7 @@ div class="footer-contact bg-faded" id="contact"
           ' Schedule a 30 minute meeting with our CEO, or send an email to
           = mail_to "sales@ragnarson.com", "sales@ragnarson.com", class: "link-primary", ga: { on: "click", event: { category: "Email Link", action: "click", label: "sales@ragnarson.com" } }
           | .
-      div class="col-lg-3 col-md-4 text-xs-center"
+      div class="col-lg-3 col-md-4 text-center"
         a href="" onclick="Calendly.showPopupWidget('https://calendly.com/macias/30min');return false;" class="link-primary figure"
           = image_set_tag_3x("footer/macias_1x.jpg", class: "rounded-circle contact-avatar")
           button class="btn-brand mb-2"

@@ -7,21 +7,18 @@
     overflow: initial;
   }
 
-  .carousel-control {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    &.left,
-    &.right{
-      background-image: none;
-      font-size: $font-size-big;
-    }
+  .carousel-control-prev, .carousel-control-next {
+    color: $color-dark-muted;
+    font-size: 2em;
   }
 }
 
 .testimonial-indicators {
   bottom: $spacer-y;
+
+  li {
+    background-color: $color-dark-muted;
+  }
 
   .testimonial-indicator {
     margin: 0 .5 * $spacer-x;
