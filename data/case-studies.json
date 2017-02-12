@@ -14,7 +14,7 @@
       "Helped with hiring new technical lead who was our replacement",
       "Handed over the development to their local team",
       "Provided technical expertise and talent",
-      "Product development for almost two years 10.2013 - 08.2015"
+      "Product development for two years"
     ],
     "what-they-achieved": [
       "MVP in 4 months, as promised in our estimates, which helped them to raise money from investors",
@@ -22,6 +22,18 @@
       "Later on Series A funding ($3.3M), still during our cooperation",
       "1M customers acquired in 10 months - since the beginning of development",
       "Product is being used in 39 countries, many of them outside Europe and North America, like India, Saudi Arabia, Japan, Australia, etc"
+    ],
+    "tech-stack": [
+      "Ruby",
+      "Rails",
+      "jQuery",
+      "Bootstrap",
+      "Sidekiq",
+      "OAuth 2",
+      "Adyen",
+      "WebTranslateIt",
+      "Redis",
+      "PostgreSQL"
     ],
     "project-id": 3,
     "color-start": "#f6a623",
@@ -33,18 +45,27 @@
     "image": "bookingsync",
     "what-it-does": "BookingSync is a vacation rental software dedicated for property managers which solves the problem of renting properties. There are multiple channels used by  travellers to make reservations, however, rentals management without a centralized application is highly cumbersome. BookingSync solves exactly that problem seamlessly and improves marketing process. Thanks to BookingSync, property owners and agents are able to save time and book more.",
     "business-initiatives": "BookingSync needed team of experienced consultants to develop and extend its core functionality.",
-    "what-we-did": [
-      "Built internal ecosystem based on microservices architecture",
-      "Built an API allowing integration with multiple partners and extending internal core application",
-      "Established PCI DSS compliant microservice for credit card payments processing",
-      "Established integration with multiple partners (including Booking-com, Airbnb HomeAway)",
-      "Provided technical expertise and talent",
-      "Product development for almost three years 2014 - ongoing"
+    "what-we-did-paragraphs": [
+      "We were first approached by BookingSync for a short job of building an OAuth 2 provider to authorize and authenticate a new version of their API. The scope of our work quickly grew to include planning and implementing that API, along with making sure it’s done in a secure and scalable way.",
+      "This API allowed us to build apps that extended the core functionality of BookingSync without making changes to the main application. Thanks to that, we were able to build full two-way integrations with multiple channels, such as Booking.com, HomeAway and Airbnb, which some competitors can’t match even a year later.",
+      "Along the way, we increased our involvement up to 7 developers during the peak. We helped improve all areas of the application. We took responsibility for the technical side, allowing the BookingSync team to focus on business development and working with customers.",
+      "Product development for three years and ongoing"
     ],
     "what-they-achieved": [
-      "A new user inter interface",
-      "App center - a marketplace with applications dedicated to vacation rental owners & managers",
-      "Shortened response rate"
+      "A growing community of developers building apps using the new API",
+      "Reduced time for building integrations for new channels to about 30 days"
+    ],
+    "tech-stack": [
+      "Ruby",
+      "Rails",
+      "Ember.js",
+      "JSONAPI",
+      "OAuth 2",
+      "Sidekiq",
+      "Amazon Web Services",
+      "Docker",
+      "Redis",
+      "PostgreSQL"
     ],
     "project-id": 1,
     "color-start": "#4CC7FF",
@@ -65,10 +86,20 @@
       "Provided technical expertise and talent"
     ],
     "what-they-achieved": [
-      "MVP in 4,5 months",
+      "MVP in 4.5 months",
       "Raised a seed financing round",
       "Spendings associated with recruiting a web developer saved",
       "A small internal team could focus 100% on the business operations"
+    ],
+    "tech-stack": [
+      "Ruby",
+      "Rails",
+      "Vue.js",
+      "Google APIs",
+      "Sidekiq",
+      "Heroku",
+      "Redis",
+      "PostgreSQL"
     ],
     "project-id": 5,
     "color-start": "#4497C1",
@@ -101,6 +132,16 @@
       "Demo user panel built which was used during a show at a conference",
       "Ensured better code quality",
       "Internal tech team educated"
+    ],
+    "tech-stack": [
+      "Ruby",
+      "Rails",
+      "Bootstrap",
+      "Sidekiq",
+      "Heroku",
+      "Cloudinary",
+      "Redis",
+      "PostgreSQL"
     ],
     "project-id": 6,
     "color-start": "#D5C19D",

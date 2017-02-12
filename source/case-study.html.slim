@@ -16,7 +16,7 @@ div class="section pt-5 pb-5"
         h1 class="display-5" What it does
       div class="col-lg-8 section-content"
         p class="lead" = case_study["what-it-does"]
-        
+
 div class="section bg-faded pt-5 pb-5"
   div class="container text-center"
     = image_tag("case-studies/business-initiatives.png")
@@ -28,14 +28,28 @@ div class="section pt-5"
     div class="row"
       div class="col-md-6"
         h2 class="display-5" What we did
-        ul class="pr-3"
-          - case_study["what-we-did"].each do |point|
-            li class="mt-1" = point
+        - if case_study["what-we-did-paragraphs"]
+          - case_study["what-we-did-paragraphs"].each do |point|
+            p class="lead mt-2" = point
+        - else
+          ul class="pr-3"
+            - case_study["what-we-did"].each do |point|
+              li class="mt-2 lead" = point
       div class="col-md-6"
         h2 class="display-5" What they achieved
         ul class="pr-3"
           - case_study["what-they-achieved"].each do |point|
-            li class="mt-2" = point
+            li class="mt-2 lead" = point
+            
+div class="section bg-faded pt-5 pb-5"
+  div class="container"
+    div class="row"
+      div class="col-md-2"
+        h2 Tech stack
+      div class="col-md-10 case-study-tech"
+        - case_study["tech-stack"].each do |tech|
+          span class="pill" = tech
+          ' 
 
 div class="section mt-5"
   div class="container"
