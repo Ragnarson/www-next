@@ -18,6 +18,7 @@ gem 'middleman-sprockets'
 gem 'middleman-autoprefixer'
 gem 'middleman-jquery', '~> 2.1', '>= 2.1.1'
 gem 'middleman-deploy', '>= 2.0.0.pre.alpha'
+gem 'middleman-search_engine_sitemap'
 
 group :development do
   gem 'puma'

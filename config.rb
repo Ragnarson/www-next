@@ -51,6 +51,9 @@ activate :asset_hash, prefix: "c0"
 
 activate :directory_indexes
 
+set :url_root, "https://ragnarson.com"
+activate :search_engine_sitemap
+
 ###
 # Helpers
 ###

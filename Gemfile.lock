@@ -15,6 +15,7 @@ GEM
     bootstrap (4.0.0.alpha6)
       autoprefixer-rails (>= 6.0.3)
       sass (>= 3.4.19)
+    builder (3.2.3)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -92,6 +93,9 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
+    middleman-search_engine_sitemap (1.4.0)
+      builder
+      middleman-core (~> 4.0)
     middleman-sprockets (4.1.0)
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
@@ -143,6 +147,7 @@ DEPENDENCIES
   middleman-deploy (>= 2.0.0.pre.alpha)
   middleman-jquery (~> 2.1, >= 2.1.1)
   middleman-livereload
+  middleman-search_engine_sitemap
   middleman-sprockets
   puma
   rails-assets-tether (>= 1.1.0)!
