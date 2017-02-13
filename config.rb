@@ -49,6 +49,8 @@ activate :sprockets
 # for all other assets.
 activate :asset_hash, prefix: "c0"
 
+activate :directory_indexes
+
 ###
 # Helpers
 ###
