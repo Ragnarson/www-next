@@ -48,12 +48,12 @@
     "what-we-did-paragraphs": [
       "We were first approached by BookingSync for a short job of building an OAuth 2 provider to authorize and authenticate a new version of their API. The scope of our work quickly grew to include planning and implementing that API, along with making sure it’s done in a secure and scalable way.",
       "This API allowed us to build apps that extended the core functionality of BookingSync without making changes to the main application. Thanks to that, we were able to build full two-way integrations with multiple channels, such as Booking.com, HomeAway and Airbnb, which some competitors can’t match even a year later.",
-      "Along the way, we increased our involvement up to 7 developers during the peak. We helped improve all areas of the application. We took responsibility for the technical side, allowing the BookingSync team to focus on business development and working with customers.",
-      "Product development for three years and ongoing"
+      "Along the way, we increased our involvement up to 7 developers during the peak. We helped improve all areas of the application. We took responsibility for the technical side, allowing the BookingSync team to focus on business development and working with customers."
     ],
     "what-they-achieved": [
       "A growing community of developers building apps using the new API",
-      "Reduced time for building integrations for new channels to about 30 days"
+      "Reduced time for building integrations for new channels to about 30 days",
+      "PCI DSS compliant architecture for credit card payments processing"
     ],
     "tech-stack": [
       "Ruby",
