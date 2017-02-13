@@ -1,0 +1,26 @@
+.card {
+  background: $color-light;
+  box-shadow: $box-shadow-card;
+  border-radius: $border-radius;
+  padding: $spacer-x $spacer-y;
+  display: block;
+
+}
+
+.card-link {
+  transition: $link-transition;
+  font-size: 1.5em;
+
+  &:hover, &:active, &:focus {
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: $box-shadow-card-raised;
+  }
+}
+
+.card-link-inverse {
+  color: #fff;
+  &:hover, &:active, &:focus {
+    color: #fff;
+  }
+}

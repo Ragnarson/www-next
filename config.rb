@@ -18,6 +18,19 @@ require "slim"
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
+# @app.data is a workaround to get an actual array of data within config.rb
+case_studies = @app.data["case-studies"]
+case_studies.each_with_index do |case_study, index|
+  proxy "/case-studies/#{case_study["slug"]}.html",
+        "/case-study.html",
+        locals: {
+          case_study: case_study,
+          next_case_study: case_studies[(index + 1) % case_studies.size],
+          previous_case_study: case_studies[index - 1]
+        },
+        ignore: true
+end
+
 # General configuration
 
 # Reload the browser automatically whenever files change
@@ -64,8 +77,38 @@ helpers do
     image_tag "project/logo/#{logo}"
   end
 
+  def case_study_image_tag(name, options = {})
+    image_tag "case-studies/#{name}", options
+  end
+
+  def case_study_summary(summary)
+    if summary.length < 260
+      summary
+    else
+      "#{summary[0..260]}..."
+    end
+  end
+
+  def case_study_path(case_study)
+    "/case-studies/#{case_study["slug"]}.html"
+  end
+
   def carousel_item_active(index)
     "active" if index.zero?
+  end
+
+  def find_project(project_id)
+    result = data["projects"].select { |record| record["id"] == project_id }
+    result.any? ? result.first : nil
+  end
+
+  def case_study_style(case_study)
+    color_start = case_study["color-start"]
+    color_end = case_study["color-end"]
+
+    if color_start && color_end
+      "background-image: linear-gradient(to top, #{color_start}, #{color_start} 40%, #{color_end});"
+    end
   end
 end
 

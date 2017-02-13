@@ -6,3 +6,16 @@
   color: $headers-color;
   font-weight: bold;
 }
+
+.bottom-inset-shadow {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 32px;
+  background-image: linear-gradient(to top, rgba(30, 30, 30, 0.2), transparent 30px, transparent);
+}
+
+.display-5 {
+  font-size: 3rem;
+  font-weight: 300;
+}

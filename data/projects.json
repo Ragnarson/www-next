@@ -42,5 +42,27 @@
       "text": "Long term relationship with Ragnarson (almost 5 years) was very profitable for me. Developers and administrators constantly support our product, develop and maintain the application and take care of IT infrastructure. I can focus on my business goals and not worry about a technicality.",
       "avatar": "4.png"
     }
+  },
+  {
+    "id": 5,
+    "name": "certace",
+    "link": "https://www.certace.com/",
+    "logo": "certace.svg",
+    "testimonial": {
+      "author": "Sibylle Luther, Co-Founder",
+      "text": "I really appreciated the collaboration with Ragnarson. They worked very efficiently, always met the deadlines and had good input on certain features for which we needed a second opinion. I can recommend Ragnarson for any startup who wants to scale fast.",
+      "avatar": "5.jpg"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Vehiculum",
+    "link": "https://www.vehiculum.de/",
+    "logo": "vehiculum.png",
+    "testimonial": {
+      "author": "Guy Moller, Co-founder & CTO",
+      "text": "Ragnarson guys made an awesome job. They took care to improve a quality code thanks to that Vehiculum is ready for further development and scaling its business.",
+      "avatar": "6.jpg"
+    }
   }
 ]

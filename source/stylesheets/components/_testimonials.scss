@@ -2,27 +2,23 @@
   position: relative;
   top: 4 * $spacer-y;
   z-index: 2;
-  overflow-x: hidden;
 
   .carousel-inner {
     overflow: initial;
   }
 
-  .carousel-control {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    &.left,
-    &.right{
-      background-image: none;
-      font-size: $font-size-big;
-    }
+  .carousel-control-prev, .carousel-control-next {
+    color: $color-dark-muted;
+    font-size: 2em;
   }
 }
 
 .testimonial-indicators {
-  bottom: 0;
+  bottom: $spacer-y;
+
+  li {
+    background-color: $color-dark-muted;
+  }
 
   .testimonial-indicator {
     margin: 0 .5 * $spacer-x;
@@ -36,10 +32,14 @@
 }
 
 .testimonial-card {
-  background: $color-light;
-  box-shadow: $box-shadow-card;
-  padding: 3 * $spacer-y 5 * $spacer-x;
-  min-height: 313px;
+  @extend .card;
+  padding: 3 * $spacer-y 5 * $spacer-x !important;
+}
+
+.carousel {
+  .testimonial-card {
+    min-height: 313px;
+  }
 }
 
 .testimonial-avatar-container {
@@ -73,13 +73,18 @@
 }
 
 @include media-breakpoint-down(md) {
-  .testimonial-card {
+  .testimonial-content {
     padding: 3 * $spacer-y $spacer-x;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1600px) {
-  .testimonial-card  {
+@media (min-width: 768px){
+  .testimonial-content  {
     width: 75%;
+    max-width: 750px;
   }
+}
+
+.testimonials {
+  overflow-x: hidden;
 }

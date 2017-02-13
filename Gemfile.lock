@@ -9,10 +9,10 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
-    autoprefixer-rails (6.5.4)
+    autoprefixer-rails (6.7.2)
       execjs
     backports (3.6.8)
-    bootstrap (4.0.0.alpha5)
+    bootstrap (4.0.0.alpha6)
       autoprefixer-rails (>= 6.0.3)
       sass (>= 3.4.19)
     coffee-script (2.4.1)
@@ -137,7 +137,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap (~> 4.0.0.alpha5)
+  bootstrap (~> 4.0.0.alpha6)
   middleman (>= 4.0.0)
   middleman-autoprefixer
   middleman-deploy (>= 2.0.0.pre.alpha)

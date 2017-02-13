@@ -1,0 +1,9 @@
+= partial "components/navbar"
+
+div class="container"
+  div class="row"
+    - data["case-studies"].each do |case_study|
+      div class="col-md-6 col-sm-12"
+        = partial("components/case-study-card", locals: { case_study: case_study })
+
+= partial "components/clients-logos"

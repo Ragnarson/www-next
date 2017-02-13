@@ -52,3 +52,20 @@
 .btn-big {
   font-size: $font-size-big;
 }
+
+.btn-inverse {
+  color: $color-brand;
+  font-size: 1.25em;
+  display: inline-block;
+  padding: $border-radius 2 * $border-radius;
+  margin-left: -2 * $border-radius;
+  transition: $btn-transition;
+  font-weight: 600;
+
+  &:hover {
+    background: $color-brand;
+    color: #fff;
+    border-radius: $border-radius;
+    text-decoration: none;
+  }
+}

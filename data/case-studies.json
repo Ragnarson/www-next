@@ -1,0 +1,150 @@
+[
+  {
+    "slug": "memorado",
+    "name": "Memorado",
+    "image": "memorado",
+    "what-it-does": "Working out the body is a popular daily routine for many people. It helps them to keep in shape, relax and stay healthy. It is possible to do the same for your brain in order to enhance your memory and concentration abilities. Memorado provides you with an on-line training and games specifically designed for this purpose.",
+    "business-initiatives": "Memorado needed a support in building MVP within a short deadline",
+    "what-we-did": [
+      "Helped to design the core application and provided technical advice to Memorado’s CTO",
+      "Helped with scaling their product when it went viral",
+      "Designed the product as multilingual from the ground up, which allowed it to gain popularity all over the world",
+      "Switched the development focus from web application to API server following the pivot based on analysis of users’ demographics and behaviour",
+      "Provided dedicated database replica to be used for statistical data analysis, supporting business decisions without sacrificing the performance of production system",
+      "Helped with hiring new technical lead who was our replacement",
+      "Handed over the development to their local team",
+      "Provided technical expertise and talent",
+      "Product development for two years"
+    ],
+    "what-they-achieved": [
+      "MVP in 4 months, as promised in our estimates, which helped them to raise money from investors",
+      "Seed funding ($1.3M) after growing customer base to 1M - https://www.crunchbase.com/organization/memorado#/entity (section funding rounds)",
+      "Later on Series A funding ($3.3M), still during our cooperation",
+      "1M customers acquired in 10 months - since the beginning of development",
+      "Product is being used in 39 countries, many of them outside Europe and North America, like India, Saudi Arabia, Japan, Australia, etc"
+    ],
+    "tech-stack": [
+      "Ruby",
+      "Rails",
+      "jQuery",
+      "Bootstrap",
+      "Sidekiq",
+      "OAuth 2",
+      "Adyen",
+      "WebTranslateIt",
+      "Redis",
+      "PostgreSQL"
+    ],
+    "project-id": 3,
+    "color-start": "#f6a623",
+    "color-end": "#F2901A"
+  },
+  {
+    "slug": "bookingsync",
+    "name": "BookingSync",
+    "image": "bookingsync",
+    "what-it-does": "BookingSync is a vacation rental software dedicated for property managers which solves the problem of renting properties. There are multiple channels used by  travellers to make reservations, however, rentals management without a centralized application is highly cumbersome. BookingSync solves exactly that problem seamlessly and improves marketing process. Thanks to BookingSync, property owners and agents are able to save time and book more.",
+    "business-initiatives": "BookingSync needed team of experienced consultants to develop and extend its core functionality.",
+    "what-we-did-paragraphs": [
+      "We were first approached by BookingSync for a short job of building an OAuth 2 provider to authorize and authenticate a new version of their API. The scope of our work quickly grew to include planning and implementing that API, along with making sure it’s done in a secure and scalable way.",
+      "This API allowed us to build apps that extended the core functionality of BookingSync without making changes to the main application. Thanks to that, we were able to build full two-way integrations with multiple channels, such as Booking.com, HomeAway and Airbnb, which some competitors can’t match even a year later.",
+      "Along the way, we increased our involvement up to 7 developers during the peak. We helped improve all areas of the application. We took responsibility for the technical side, allowing the BookingSync team to focus on business development and working with customers."
+    ],
+    "what-they-achieved": [
+      "A growing community of developers building apps using the new API",
+      "Reduced time for building integrations for new channels to about 30 days",
+      "PCI DSS compliant architecture for credit card payments processing"
+    ],
+    "tech-stack": [
+      "Ruby",
+      "Rails",
+      "Ember.js",
+      "JSONAPI",
+      "OAuth 2",
+      "Sidekiq",
+      "Amazon Web Services",
+      "Docker",
+      "Redis",
+      "PostgreSQL"
+    ],
+    "project-id": 1,
+    "color-start": "#4CC7FF",
+    "color-end": "#14A1DF"
+  },
+  {
+    "slug": "certace",
+    "name": "Certace",
+    "image": "certace",
+    "what-it-does": "certace is the leading digital marketplace for data science projects. By connecting ace data experts (Machine Learning Scientists, Data Architects, Data Engineers, Information Strategists etc.) with exciting business projects or permanent jobs, certace helps organizations advance through descriptive, predictive and prescriptive data insights. Whether it is defining a data roadmap or creating a proof of conecpt (POC), certace finds the right expert for their clients without incurring the long-term costs associated with a permanent hire.",
+    "business-initiatives": "certace needed a support in building MVP within a short deadline",
+    "what-we-did": [
+      "Designed the core application",
+      "Delivered a streamlined, unified code base, fully covered with automated tests",
+      "Designed user acquisition flow containing self-assessment, dedicated exam with peer interview system",
+      "Delivered project acquisition flow provided by potential clients",
+      "Designed user interface for mobile devices",
+      "Provided technical expertise and talent"
+    ],
+    "what-they-achieved": [
+      "MVP in 4.5 months",
+      "Raised a seed financing round",
+      "Spendings associated with recruiting a web developer saved",
+      "A small internal team could focus 100% on the business operations"
+    ],
+    "tech-stack": [
+      "Ruby",
+      "Rails",
+      "Vue.js",
+      "Google APIs",
+      "Sidekiq",
+      "Heroku",
+      "Redis",
+      "PostgreSQL"
+    ],
+    "project-id": 5,
+    "color-start": "#4497C1",
+    "color-end": "#2F769A"
+  },
+  {
+    "slug": "vehiculum",
+    "name": "Vehiculum",
+    "image": "vehiculum",
+    "what-it-does": "Vehiculum is the first digital solution hassle-free car leasing. The platform empowers customers to compare multiple models and leasing offers in real-time. Beside the price comparison it also offer additional features such as contract management, which mainly supports companies with small fleets to manage their carfleet.",
+    "business-initiatives": "Vehiculum was looking for a team for building an MVP and further product  development and optimisation.",
+    "what-we-did": [
+      "Refactored monolithic codebase into proper namespaces (admin panel, dealer panel, customer panel)",
+      "Covered application with good quality tests",
+      "Improved code quality",
+      "Reimplemented and refactored existing features to make them work with new database structure",
+      "Moved application to Heroku platform",
+      "Analyzed the existing front-end code and provided refactoring plan",
+      "Restructured the front-end architecture to allow more efficient development",
+      "Created pattern library to standardize the front-end code and make it easier to keep the UI consistent",
+      "Evangelised best practices in writing high quality reusable front-end code",
+      "Collaborated with internal front-end developer (sharing knowledge, pair programming sessions and code review, planning work)",
+      "Worked with internal designers (providing feedback on designs about UX, consistency with existing elements and the estimated implementation time)",
+      "Provided technical expertise",
+      "Provided best practices regarding collaboration in a project"
+    ],
+    "what-they-achieved": [
+      "A web application which won the first customers",
+      "Gained seed funding for further development",
+      "Demo user panel built which was used during a show at a conference",
+      "Ensured better code quality",
+      "Internal tech team educated"
+    ],
+    "tech-stack": [
+      "Ruby",
+      "Rails",
+      "Bootstrap",
+      "Sidekiq",
+      "Heroku",
+      "Cloudinary",
+      "Redis",
+      "PostgreSQL"
+    ],
+    "project-id": 6,
+    "color-start": "#D5C19D",
+    "color-end": "#C6AA79"
+  }
+]

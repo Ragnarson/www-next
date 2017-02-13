@@ -1,0 +1,76 @@
+div class="relative-container"
+  = partial "components/navbar-transparent"
+  div class="case-study-hero" style=case_study_style(case_study)
+    div class="case-study-hero-screen case-study-hero-screen-1"
+      = partial "components/fake-browser", locals: { location: case_study["name"] }
+      = case_study_image_tag "#{case_study["image"]}/#{case_study["image"]}-1.png", class: "img-fluid"
+    div class="case-study-hero-screen case-study-hero-screen-2"
+      = partial "components/fake-browser", locals: { location: case_study["name"] }
+      = case_study_image_tag "#{case_study["image"]}/#{case_study["image"]}-2.png", class: "img-fluid"
+    div class="bottom-inset-shadow"
+
+div class="section pt-5 pb-5"
+  div class="container"
+    div class="row"
+      div class="col-lg-4 section-header"
+        h1 class="display-5" What it does
+      div class="col-lg-8 section-content"
+        p class="lead" = case_study["what-it-does"]
+
+div class="section bg-faded pt-5 pb-5"
+  div class="container text-center"
+    = image_tag("case-studies/business-initiatives.png")
+    h1 Business initiatives
+    p class="lead" = case_study["business-initiatives"]     
+    
+div class="section pt-5"
+  div class="container"
+    div class="row"
+      div class="col-md-6"
+        h2 class="display-5" What we did
+        - if case_study["what-we-did-paragraphs"]
+          - case_study["what-we-did-paragraphs"].each do |point|
+            p class="lead mt-2" = point
+        - else
+          ul class="pr-3"
+            - case_study["what-we-did"].each do |point|
+              li class="mt-2 lead" = point
+      div class="col-md-6"
+        h2 class="display-5" What they achieved
+        ul class="pr-3"
+          - case_study["what-they-achieved"].each do |point|
+            li class="mt-2 lead" = point
+            
+div class="section bg-faded pt-5 pb-5"
+  div class="container"
+    div class="row"
+      div class="col-md-2"
+        h2 Tech stack
+      div class="col-md-10 case-study-tech"
+        - case_study["tech-stack"].each do |tech|
+          span class="pill" = tech
+          ' 
+
+div class="section mt-5"
+  div class="container"
+    div class="text-center pt-5 mb-5"
+      div class="relative-container"
+        - project = find_project(case_study["project-id"])
+        div class="testimonial-card"
+          div class="testimonial-avatar-container"
+            = testimonial_image_tag project.testimonial.avatar
+          p class="testimonial-author font-weight-bold"
+            | #{project.testimonial.author}
+          p class="testimonial-content mx-auto"
+            = project.testimonial.text
+          div class="testimonial-logo"
+            = link_to project.link
+              = logo_image_tag project.logo
+
+div class="section pt-1 pb-5"
+  div class="container"
+    div class="row"
+      div class="col-6"
+        = link_to "&#9664; #{previous_case_study["name"]}", case_study_path(previous_case_study), class: "card card-link card-link-inverse", style: case_study_style(previous_case_study)
+      div class="col-6"
+        = link_to "#{next_case_study["name"]} &#9654;", case_study_path(next_case_study), class: "card card-link card-link-inverse text-right", style: case_study_style(next_case_study)
