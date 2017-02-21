@@ -64,7 +64,7 @@ div class="section mt-5"
           p class="testimonial-content mx-auto"
             = project.testimonial.text
           div class="testimonial-logo"
-            = link_to project.link
+            = link_to project.link, title: project.name
               = logo_image_tag project.logo
 
 div class="section pt-1 pb-5"

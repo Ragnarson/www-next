@@ -75,7 +75,7 @@
     "slug": "certace",
     "name": "Certace",
     "image": "certace",
-    "what-it-does": "certace is the leading digital marketplace for data science projects. By connecting ace data experts (Machine Learning Scientists, Data Architects, Data Engineers, Information Strategists etc.) with exciting business projects or permanent jobs, certace helps organizations advance through descriptive, predictive and prescriptive data insights. Whether it is defining a data roadmap or creating a proof of conecpt (POC), certace finds the right expert for their clients without incurring the long-term costs associated with a permanent hire.",
+    "what-it-does": "<a href='https://www.certace.com'>certace</a> is the leading digital marketplace for data science projects. By connecting ace data experts (Machine Learning Scientists, Data Architects, Data Engineers, Information Strategists etc.) with exciting business projects or permanent jobs, certace helps organizations advance through descriptive, predictive and prescriptive data insights. Whether it is defining a data roadmap or creating a proof of conecpt (POC), certace finds the right expert for their clients without incurring the long-term costs associated with a permanent hire.",
     "business-initiatives": "certace needed a support in building MVP within a short deadline",
     "what-we-did": [
       "Designed the core application",
