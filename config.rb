@@ -115,6 +115,10 @@ helpers do
       "background-image: linear-gradient(to top, #{color_start}, #{color_start} 40%, #{color_end});"
     end
   end
+
+  def code_example
+    data["code-example"]
+  end
 end
 
 configure :build do

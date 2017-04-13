@@ -1,0 +1,62 @@
+div class="rails-info-container"
+  div class="row"
+    div class="rails-info-editor-rows ml-2 text-center"
+      - 40.times do |i|
+        span class="rails-info-editor-code-line"
+          = i + 1
+
+    div class="col-md-5 rails-info-editor-code"
+      - code_example.each do |line|
+        span class="rails-info-editor-code-line ml-#{line[:indent]}"
+          = line[:text]
+
+    div class="col-md-6 rails-info-content"
+      h2 class="rails-info-content-header pt-5 mb-5" Why Rails?
+
+      div class="rails-info-content-point mb-4"
+        = image_tag "services/ico-1.svg", class: "rails-info-content-img"
+        div class="rails-info-content-el"
+          h3 class="text-brand" Is it not too old? No!
+          p In the terms of software, 12+ years which have passed since the first version of Ruby on Rails was published  seems like a very long time. Certainly there are newer frameworks out there.
+
+      div class="rails-info-content-point mb-4"
+        = image_tag "services/ico-2.svg", class: "rails-info-content-img"
+        div class="rails-info-content-el"
+          h3 class="text-brand" It is popular
+          p There are many developers out there, if you ever need to enlarge your team. It is not always the case with other frameworks, where the pool of experienced developers is small and hiring a specialist might be a lengthy and costly affair.
+
+      div class="rails-info-content-point mb-4"
+        = image_tag "services/ico-3.svg", class: "rails-info-content-img"
+        div class="rails-info-content-el"
+          h3 class="text-brand" It gives you a head start…
+          p …for there is an abundance of learning materials, use cases, extensions (known as gems) providing additional functionality. Consequently, we will not waste your resources by
+
+      div class="rails-info-content-point mb-4"
+        = image_tag "services/ico-4.svg", class: "rails-info-content-img"
+        div class="rails-info-content-el"
+          h3 class="text-brand" It minimizes your risk
+          p You’re taking huge risks with the business itself anyway, not knowing if it will catch on and bring you profits you are expecting. Why lower your chances for success by having additional risk
+
+      div class="rails-info-content-point mb-4"
+        = image_tag "services/ico-5.svg", class: "rails-info-content-img"
+        div class="rails-info-content-el"
+          h3 class="text-brand" We know Rails well
+          p We have been using it since July 2006, when it was at version 1.1.3 We do remember every lesson we learnt along the way. It takes a few weeks to learn a new language or framework,
+
+      div class="rails-info-content-point mb-4"
+        = image_tag "services/ico-6.svg", class: "rails-info-content-img"
+        div class="rails-info-content-el"
+          h3 class="text-brand" Rails has great defaults and conventions
+          p With the right approach and discipline, it’s easy to keep the project accessible to new developers. They know what to expect, where to look for things. It’s not as easy in the JS world.
+
+      div class="rails-info-content-point mb-4"
+        = image_tag "services/ico-7.svg", class: "rails-info-content-img"
+        div class="rails-info-content-el"
+          h3 class="text-brand" It gets the job done
+          p We’re not hired to stroke our programming egos or to show off how clever the code we write is. Simple and reliable is the way to go.
+
+      div class="rails-info-content-point mb-4"
+        = image_tag "services/ico-8.svg", class: "rails-info-content-img"
+        div class="rails-info-content-el"
+          h3 class="text-brand" It is the default choice, but not the only choice
+          p Sometimes clients approach us with a problem that’s a perfect match for another toolkit / framework / technology. That’s when we will not use Rails - only when it makes sense.

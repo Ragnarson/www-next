@@ -1,0 +1,168 @@
+.intro-offer-container {
+  background-image: url("/images/services/group-48.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 559px;
+}
+
+.intro-offer-header {
+  height: 50px;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  text-align: center;
+  padding-top: 145px;
+  color: $color-brand;
+}
+
+.intro-offer-description {
+  height: 184px;
+  font-size: 18px;
+  letter-spacing: -0.2px;
+  text-align: center;
+  padding-top: 170px;
+  margin: auto;
+  width: 50%;
+}
+
+@include media-breakpoint-down(md) {
+  .intro-offer-container {
+    background: none;
+  }
+
+  .intro-offer-header {
+    font-size: 24px;
+    padding-top: 0;
+    padding: 20px 10xp;
+  }
+
+  .intro-offer-description {
+    height: 100%;
+    padding-top: 0;
+    padding: 40px 20px;
+    width: 100%;
+  }
+}
+
+.offer-container {
+  background-color: #f5f5f5;
+
+  li {
+    font-size: 18px;
+  }
+}
+
+.offer-list > li {
+  min-height: 220px;
+}
+
+@include media-breakpoint-down(md) {
+  .offer-header {
+    text-align: center;
+  }
+
+  .offer-list > li {
+    min-height: 0;
+    padding-bottom: 10px;
+  }
+}
+
+.stack-header-small {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.11;
+  letter-spacing: -0.2px;
+  color: #9b9b9b;
+}
+
+.stack-list > li {
+  font-size: 18px;
+  letter-spacing: -0.2px;
+  padding-top: 25px;
+}
+
+@include media-breakpoint-down(md) {
+  .stack-header {
+    text-align: center;
+  }
+}
+
+.text-brand {
+  color: $color-brand;
+}
+
+.rails-info-container {
+  background-color: #272b36;
+}
+
+.rails-info-editor-rows {
+  background-color: #21242d;
+  position: relative;
+  font-family: Courier;
+  font-size: 20px;
+  line-height: 2.0;
+  color: #4c3670;
+  flex: 0 0 60px;
+  max-width: 60px;
+}
+
+.rails-info-editor-code {
+  font-family: Courier;
+  font-size: 20px;
+  line-height: 2.0;
+  color: #4c3670;
+}
+
+.rails-info-editor-code-line {
+  display: block;
+  height: 40px;
+}
+
+.rails-info-content {
+}
+
+.rails-info-content-header {
+  color: $color-light;
+}
+
+.rails-info-content-point {
+  width: 100%;
+  display: inline-block;
+}
+
+.rails-info-content-img {
+  display: inline-block;
+  float: left;
+}
+
+.rails-info-content-img path {
+  fill: $color-brand;
+}
+
+.rails-info-content-el {
+  display: inline-block;
+  float: left;
+  padding-left: 20px;
+  width: 75%;
+  font-size: 18px;
+  line-height: 1.67;
+  color: $color-light;
+}
+
+@include media-breakpoint-down(md) {
+  .rails-info-editor-rows {
+    display: none;
+  }
+
+  .rails-info-editor-code {
+    display: none;
+  }
+
+  .rails-info-content-header {
+    text-align: center;
+  }
+
+  .rails-info-content-point {
+    padding-left: 20px;
+  }
+}
