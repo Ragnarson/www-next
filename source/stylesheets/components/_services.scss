@@ -56,14 +56,31 @@
   min-height: 220px;
 }
 
+.offer-devops-list > li {
+  min-height: 120px;
+}
+
+.devops-offer-btn {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
 @include media-breakpoint-down(md) {
-  .offer-header {
+  .offer-header, .offer-devops-header {
     text-align: center;
   }
 
   .offer-list > li {
     min-height: 0;
     padding-bottom: 10px;
+  }
+
+  .devops-offer-btn {
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 40px;
+    margin: auto;
+    width: 50%;
   }
 }
 
@@ -95,6 +112,10 @@
   background-color: #272b36;
 }
 
+.rails-info-container > .row {
+  width: 100%;
+}
+
 .rails-info-editor-rows {
   background-color: #21242d;
   position: relative;
@@ -116,9 +137,6 @@
 .rails-info-editor-code-line {
   display: block;
   height: 40px;
-}
-
-.rails-info-content {
 }
 
 .rails-info-content-header {
@@ -150,11 +168,7 @@
 }
 
 @include media-breakpoint-down(md) {
-  .rails-info-editor-rows {
-    display: none;
-  }
-
-  .rails-info-editor-code {
+  .rails-info-editor-rows, .rails-info-editor-code {
     display: none;
   }
 
