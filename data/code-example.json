@@ -1,0 +1,158 @@
+[
+  {
+    "indent": 0,
+    "text": "class Ragnarson < ApplicationRecord"
+  },
+  {
+    "indent": 2,
+    "text": "has_one :team"
+  },
+  {
+    "indent": 2,
+    "text": "has_many :core_values"
+  },
+  {
+    "indent": 0,
+    "text": "end"
+  },
+  {
+    "indent": 0,
+    "text": ""
+  },
+  {
+    "indent": 0,
+    "text": "class Ragnarson::ClientsController"
+  },
+  {
+    "indent": 2,
+    "text": "def index"
+  },
+  {
+    "indent": 4,
+    "text": "@clients = Client.all"
+  },
+  {
+    "indent": 2,
+    "text": "end"
+  },
+  {
+    "indent": 0,
+    "text": ""
+  },
+  {
+    "indent": 2,
+    "text": "def new"
+  },
+  {
+    "indent": 2,
+    "text": "end"
+  },
+  {
+    "indent": 0,
+    "text": ""
+  },
+  {
+    "indent": 2,
+    "text": "def show"
+  },
+  {
+    "indent": 4,
+    "text": "@client = Client.find(params[:id])"
+  },
+  {
+    "indent": 2,
+    "text": "end"
+  },
+  {
+    "indent": 0,
+    "text": ""
+  },
+  {
+    "indent": 2,
+    "text": "def create"
+  },
+  {
+    "indent": 4,
+    "text": "if ragnarson.client_create(client_params)"
+  },
+  {
+    "indent": 5,
+    "text": "redirect_to root_path"
+  },
+  {
+    "indent": 4,
+    "text": "else"
+  },
+  {
+    "indent": 5,
+    "text": "render :new"
+  },
+  {
+    "indent": 4,
+    "text": "end"
+  },
+  {
+    "indent": 2,
+    "text": "end"
+  },
+  {
+    "indent": 0,
+    "text": ""
+  },
+  {
+    "indent": 2,
+    "text": "private"
+  },
+  {
+    "indent": 0,
+    "text": ""
+  },
+  {
+    "indent": 2,
+    "text": "def client_params"
+  },
+  {
+    "indent": 4,
+    "text": "params.require(:client).permit("
+  },
+  {
+    "indent": 5,
+    "text": ":name,"
+  },
+  {
+    "indent": 5,
+    "text": ":phone,"
+  },
+  {
+    "indent": 5,
+    "text": ":email,"
+  },
+  {
+    "indent": 5,
+    "text": ":street,"
+  },
+  {
+    "indent": 5,
+    "text": ":zip,"
+  },
+  {
+    "indent": 5,
+    "text": ":city,"
+  },
+  {
+    "indent": 5,
+    "text": ":country"
+  },
+  {
+    "indent": 4,
+    "text": ")"
+  },
+  {
+    "indent": 2,
+    "text": "end"
+  },
+  {
+    "indent": 0,
+    "text": "end"
+  }
+]
