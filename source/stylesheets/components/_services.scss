@@ -137,6 +137,8 @@
 .rails-info-editor-code-line {
   display: block;
   height: 40px;
+  word-break: break-all;
+  overflow-x: hidden;
 }
 
 .rails-info-content-header {
