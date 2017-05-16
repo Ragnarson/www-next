@@ -1,6 +1,11 @@
 div class="collapse navbar-collapse" id="navbarResponsive"
   ul class="nav navbar-nav ml-auto"
     li class="nav-item dropdown"
+      a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" Why us
+      div class="dropdown-menu"
+        = link_to "Our story", "/our-story", class: "dropdown-item"
+        = link_to "Core Values", "/core-values", class: "dropdown-item"
+    li class="nav-item dropdown"
       a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" Services
       div class="dropdown-menu"
         = link_to "Web app development", "/services/web-app-development", class: "dropdown-item"
