@@ -2,17 +2,12 @@
   background-image: url("/images/services/group-48.svg");
   background-position: center;
   background-repeat: no-repeat;
-  height: 859px;
+  height: 559px;
 }
 
 .intro-offer-header {
   height: 50px;
-  font-size: 40px;
-  font-weight: 600;
-  letter-spacing: 0.2px;
-  text-align: center;
   padding-top: 145px;
-  color: $color-brand;
 }
 
 .intro-offer-description {
@@ -45,8 +40,6 @@
 }
 
 .offer-container {
-  background-color: #f5f5f5;
-
   li {
     font-size: 18px;
   }
