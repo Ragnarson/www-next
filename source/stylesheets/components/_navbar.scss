@@ -21,7 +21,6 @@
     width: auto;
     height: auto;
     padding: 0;
-    right: 0;
   }
 
   @include media-breakpoint-down(xs) {
@@ -32,40 +31,41 @@
   }
 }
 
-// Navbar light with transparent background
-.navbar-transparent {
-  position: absolute;
-  left: 0;
-  right: 0;
-  z-index: 2;
-
-  &.navbar-dark .navbar-nav .nav-link {
-    color: $color-light;
-  }
-
-  .navbar-toggler,
-  .navbar-toggler:focus {
-    color: $color-light;
-  }
-}
-
 // Navbar logo
 .navbar-logo {
   height: $logo-height;
   width: $logo-width;
 }
 
-.navbar-transparent-logo {
-  background: url('/images/ragnarson-logo-negative.svg') center no-repeat;
-}
-
-.navbar-default-logo {
+.navbar-logo {
   background: url('/images/ragnarson-logo-default.svg') center no-repeat;
 }
 
+// Navbar light with transparent background
+.navbar-transparent {
+  .navbar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 2;
+
+    &.navbar-dark .navbar-nav .nav-link {
+      color: $color-light;
+    }
+
+    .navbar-toggler,
+    .navbar-toggler:focus {
+      color: $color-light;
+    }
+  }
+
+  .navbar-logo {
+    background: url('/images/ragnarson-logo-negative.svg') center no-repeat;
+  }
+}
+
 @include media-breakpoint-down(md) {
-  .navbar,
-  .navbar-transparent {
+  .navbar {
     .navbar-nav {
       padding: $base-spacing;
       text-align: center;
@@ -76,6 +76,11 @@
       }
     }
   }
+
+  .navbar-logo {
+    margin: auto;
+  }
+
   .navbar-transparent {
     .navbar-nav {
       background: rgba(0, 0, 0, 0.8);
