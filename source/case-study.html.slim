@@ -1,5 +1,5 @@
-div class="relative-container"
-  = partial "components/navbar-transparent"
+div class="relative-container navbar-transparent"
+  = partial "components/navbar"
   div class="case-study-hero" style=case_study_style(case_study)
     div class="case-study-hero-screen case-study-hero-screen-1"
       = partial "components/fake-browser", locals: { location: case_study["name"] }
