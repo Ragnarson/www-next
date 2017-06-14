@@ -24,7 +24,7 @@
 }
 
 .footer-nav-contact-social {
-  padding-top: 2.5 * $base-spacing;
+  padding-top: $base-spacing;
   font-size: $font-size-social-icons;
 
   a {
@@ -38,6 +38,10 @@
   }
 }
 
+.footer-nav-col-padding {
+  padding-top: 1.55rem;
+}
+
 @include media-breakpoint-down(md) {
   .footer-nav-contact-social {
     padding-top: $base-spacing;
@@ -49,10 +53,14 @@
   }
 }
 
+.footer-nav-info-padding {
+  padding-top: 2 * $base-spacing
+}
+
 .footer-nav-info {
-  font-size: $font-size-small;
+  font-family: $font-family-sans-serif;
+  font-size: $font-size-normal;
   color: $color-dark-muted;
-  padding-bottom: 2 * $base-spacing;
-  line-height: $font-size-small * 1.5;
-  text-align: center;
+  text-align: left;
+  overflow: hidden;
 }
