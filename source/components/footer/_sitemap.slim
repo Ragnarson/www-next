@@ -1,0 +1,27 @@
+div class="row"
+  div class="col-3"
+    h6 Why us
+    ul class="footer-nav-list list-unstyled"
+      li = link_to "Our story", "/our-story.html",
+                   alt: sitemap_description[:our_story]
+      li = link_to "Core Values", "/core-values.html",
+                   alt: sitemap_description[:core_values]
+  div class="col-3"
+    h6 Services
+    ul class="footer-nav-list list-unstyled"
+      li = link_to "Development", "/services/web-app-development.html",
+                   alt: sitemap_description[:development]
+      li = link_to "Infrastructure", "/services/infrastructure-and-devops.html",
+                   alt: sitemap_description[:infrastructure]
+  div class="col-3"
+    ul class="footer-nav-list list-unstyled footer-nav-col-padding"
+      li = link_to "Case Studies", "/case-studies.html",
+                   alt: sitemap_description[:case_studies]
+      li = link_to "Community", "/community.html",
+                   alt: sitemap_description[:community]
+  div class="col-3"
+    ul class="footer-nav-list list-unstyled footer-nav-col-padding"
+      li = link_to "Blog", "http://blog.ragnarson.com",
+                   alt: sitemap_description[:blog]
+      li = link_to "Jobs", "http://jobs.ragnarson.com",
+                   alt: sitemap_description[:jobs]

@@ -119,6 +119,10 @@ helpers do
   def code_example
     data["code-example"]
   end
+
+  def sitemap_description
+    data["sitemap-description"]
+  end
 end
 
 configure :build do
