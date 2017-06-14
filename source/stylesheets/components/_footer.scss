@@ -5,7 +5,7 @@
 .footer-nav {
   border-top: 1px solid lighten($color-dark, 70%);
   font-size: $font-size-normal;
-  padding: 6 * $base-spacing $base-spacing 3 * $base-spacing;
+  padding: 6 * $base-spacing $base-spacing 2 * $base-spacing;
 }
 
 .footer-nav-logo {
@@ -52,5 +52,7 @@
 .footer-nav-info {
   font-size: $font-size-small;
   color: $color-dark-muted;
-  white-space: pre-line;
+  padding-bottom: 2 * $base-spacing;
+  line-height: $font-size-small * 1.5;
+  text-align: center;
 }
