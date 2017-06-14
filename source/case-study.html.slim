@@ -21,8 +21,8 @@ div class="section bg-faded pt-5 pb-5"
   div class="container text-center"
     = image_tag("case-studies/business-initiatives.png")
     h1 Business initiatives
-    p class="lead" = case_study["business-initiatives"]     
-    
+    p class="lead" = case_study["business-initiatives"]
+
 div class="section pt-5"
   div class="container"
     div class="row"
@@ -40,7 +40,7 @@ div class="section pt-5"
         ul class="pr-3"
           - case_study["what-they-achieved"].each do |point|
             li class="mt-2 lead" = point
-            
+
 div class="section bg-faded pt-5 pb-5"
   div class="container"
     div class="row"
@@ -49,7 +49,7 @@ div class="section bg-faded pt-5 pb-5"
       div class="col-md-10 case-study-tech"
         - case_study["tech-stack"].each do |tech|
           span class="pill" = tech
-          ' 
+          '
 
 div class="section mt-5"
   div class="container"
