@@ -54,6 +54,10 @@ activate :directory_indexes
 set :url_root, "https://ragnarson.com"
 activate :search_engine_sitemap
 
+activate :twitter_oembed do |twitter|
+  twitter.cache_dir = ".cache/"
+end
+
 ###
 # Helpers
 ###

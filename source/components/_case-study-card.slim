@@ -10,5 +10,5 @@ div class="case-study-card"
   div class="content"
     h3 class="name" = case_study["name"]
     div class="summary"
-      = case_study_summary(case_study["what-it-does"])
+      = case_study_summary(case_study["what-it-does"] || case_study["what-it-did"])
     = link_to "Read more →", case_study_path(case_study), class: "btn btn-inverse mt-1"
