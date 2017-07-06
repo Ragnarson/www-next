@@ -146,5 +146,49 @@
     "project-id": 6,
     "color-start": "#D5C19D",
     "color-end": "#C6AA79"
+  },
+  {
+    "slug": "shelly-cloud",
+    "name": "Shelly Cloud",
+    "image": "shelly-cloud",
+    "what-it-did": "Shelly Cloud started in 2010. We built it as Ragnarson to solve the problems we had when deploying apps that we developed for our customers. In 2012 we decided to spin it off into a separate business. It provided high-speed servers, really simple deployment and full control over the cloud layout for developers. After over 6 years, Shelly Cloud was shut down on March 31st, 2016.",
+    "business-initiatives": "Shelly Cloud was our own initiative to provide a Ruby application hosting service that made deployments painless",
+    "what-we-did": [
+      "A dedicated, automated and scalable infrastructure available over two continents  (EU, NA)",
+      "Ruby on Rails and Chef system for scheduling, deploying and billing provided services",
+      "PostgreSQL, MySQL, MongoDB, Elasticsearch and Redis databases with automatic and free backups",
+      "Caching at HTTP level using Varnish",
+      "Application level cache with Memcached",
+      "Persistent network storage available to all application processes based on Ceph and GlusterFS",
+      "Dynamic Web UI built with Angular and InuitCSS framework",
+      "Custom CLI tool written in Ruby providing full control over the cloud and robust development process",
+      "27/7 monitoring over entire infrastructure and dedicated on-call team",
+      "Thousands of hours of all tier customer support ;-)"
+    ],
+    "what-we-achieved": [
+      "Learnt how to built products, both from the technical and business perspectives",
+      "Gained knowledge required to build a complete hosting solution",
+      "Mastered automation using Chef",
+      "Acquired skills to provide better support to an end-user customer",
+      "Long-standing business partners"
+    ],
+    "tech-stack": [
+      "Ceph",
+      "Chef",
+      "CloudFlare",
+      "DNSimple",
+      "Elasticsearch",
+      "GlusterFS",
+      "MongoDB",
+      "Openstack",
+      "PostgreSQL",
+      "Rails",
+      "Redis",
+      "Ruby",
+      "Varnish"
+    ],
+    "project-id": 7,
+    "color-start": "#4a4a4a",
+    "color-end": "#2e3a41"
   }
 ]
