@@ -12,7 +12,7 @@ div class="relative-container navbar-transparent"
 div class="section pt-5 pb-5"
   div class="container"
     div class="row"
-      - case 
+      - case
         - when case_study["what-it-did"]
           div class="col-lg-4 section-header"
             h1 class="display-5" What it did
@@ -34,7 +34,7 @@ div class="section pt-5"
     div class="row"
       div class="col-md-6"
         h2 class="display-5" What we did
-        - case 
+        - case
           - when case_study["what-we-did-paragraphs"]
             - case_study["what-we-did-paragraphs"].each do |point|
               p class="lead mt-2" = point
@@ -43,7 +43,7 @@ div class="section pt-5"
               - case_study["what-we-did"].each do |point|
                 li class="mt-2 lead" = point
       div class="col-md-6"
-        - case 
+        - case
           - when case_study["what-we-achieved"]
             h2 class="display-5" What we achieved
             ul class="pr-3"
@@ -54,7 +54,7 @@ div class="section pt-5"
             ul class="pr-3"
               - case_study["what-they-achieved"].each do |point|
                 li class="mt-2 lead" = point
-            
+
 div class="section bg-faded pt-5 pb-5"
   div class="container"
     div class="row"
@@ -69,7 +69,7 @@ div class="section mt-5"
   div class="container"
     - project = find_project(case_study["project-id"])
     - case
-      - when project.testimonial 
+      - when project.testimonial
         div class="text-center pt-5 mb-5"
           div class="relative-container"
             div class="testimonial-card"
@@ -86,9 +86,9 @@ div class="section mt-5"
         div class="row"
           - project.tweets.each_slice(project.tweets.length/2) do |tweets|
             div class="col-6"
-              - tweets.each do |tweet|  
+              - tweets.each do |tweet|
                 = twitter_oembed_by_url(tweet)
-          
+
 div class="section pt-1 pb-5"
   div class="container"
     div class="row"

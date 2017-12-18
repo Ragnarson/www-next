@@ -20,6 +20,7 @@
       "text": "Choosing to work with Ragnarson was crucial for the execution of our product. Through close collaboration we were able to rapidly launch an MVP in weeks, not months, test it and begin working on our greater platform.",
       "avatar": "2.jpg"
     }
+
   },
   {
     "id": 3,
@@ -83,5 +84,16 @@
       "https://twitter.com/_tjeden/status/532899037717221376",
       "https://twitter.com/keleshev/status/331854017963642880"
     ]
+  },
+  {
+    "id": 8,
+    "name": "B.Grimm",
+    "link": "https://masii.co.th",
+    "logo": "masii.svg",
+    "testimonial": {
+      "author": "Matthias Jurgens, Group CTO B.Grimm Joint Ventures Ltd., Founder and CEO of masii.com",
+      "text": "<p>Our goal was to launch many internet businesses at the same time in the Southeast Asia and US markets. Setting up developer teams in three different regions with 15 nationalities we had a strong need for a platform which provides tools to support teams with different backgrounds and skill levels.</p><p>At the same time, we requested a platform which is flexible enough to support every type of internet business in the future by having no downtime.</p><p>After working on the platform for 2 years now, I'm honestly impressed of the seamless way to work this quite slim platform. It's reliability, scalability and the fact that we can run it with a very small dev-ops team.</p><p>Thanks to our dear friends from Ragnarson - great job!</p>",
+      "avatar": "8.png"
+    }
   }
 ]

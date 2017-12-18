@@ -190,5 +190,46 @@
     "project-id": 7,
     "color-start": "#4a4a4a",
     "color-end": "#2e3a41"
+  },
+  {
+    "slug": "bgrimm-platform",
+    "name": "B.Grimm platform",
+    "image": "platform",
+    "what-it-does": "The platform is the basis of all TCP/IP based businesses of <a href='http://bgrimmgroup.com'>B.Grimm International</a> such as <a href='https://masii.com'>masii.com</a> or <a href='http://getmii.com'>getmii.com</a>. It’s a complete hosting solution. Combines multiple High Availability services with no single point of failure. Provides tools for Software Developers to perform a variety of administration operations without extended DevOps experience. It's vendor-independent, which allows easy expansion over new regions. Includes integration tests suite that ensures integrity on the infrastructure level even before deploying any physical resources.",
+    "business-initiatives": "Need to get a flexible and reliable hosting platform to deploy large-scale products accross the globe.",
+    "what-we-did": [
+      "The core platform based on Deis Workflow project. Provides Git-based deployment over Heroku buildpacks on top of scalable Kubernetes clusters. Encourages micro-services application design.",
+      "Extra services configured with the best High Availability practices. Including replicated databases, load balancers and external monitoring.",
+      "Developed an application to handle the platform internals.",
+      "Tools for managing the platform by developers themselves. For example, to create, backup and restore of application’s databases.",
+      "Centralized log storage based on The Elastic Stack. Allows developers to search, analyze and visualize logs for simple debugging or more advanced analysis.",
+      "Maintained the infrastructure for over 3 continents (Asia, USA, Europe) on top of 36 instances.",
+      "Built dedicated DevOps team to support internal developers.",
+      "Provided the on-call support in case of emergencies."
+    ],
+    "what-they-achieved": [
+      "Faster time to market",
+      "Professional support for a long-term technology project planning",
+      "A reliable platform that supports most of the modern web development technologies",
+      "Reduced costs of building an internal team of DevOps Engineers ",
+      "Quick and easy expansion over new regions"
+    ],
+    "tech-stack": [
+      "AWS",
+      "Chef",
+      "CoreOS",
+      "Data Dog",
+      "Deis Workflow",
+      "Ejabberd",
+      "Elasticsearch",
+      "Kibana",
+      "Kubernetes",
+      "Logstash",
+      "PostgreSQL",
+      "Ruby on Rails"
+    ],
+    "project-id": 8,
+    "color-start": "#337ab7",
+    "color-end": "#337ab7"
   }
 ]
