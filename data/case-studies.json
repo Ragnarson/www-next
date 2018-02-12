@@ -231,5 +231,45 @@
     "project-id": 8,
     "color-start": "#337ab7",
     "color-end": "#337ab7"
+  },
+  {
+    "slug": "melodie",
+    "name": "Melodie",
+    "image": "melodie",
+    "what-it-does": "Melodie is an independent online production music library. They non-exclusively license professional music tracks primarily to television, advertising and other media companies. Their mission is simple: to become the world’s leading online provider of high-quality production music.",
+    "business-initiatives": "For this project, the challenge was to find a company that truly understood the importance of UX. We required not only a fast and intuitive music search engine, but one which made the process of finding the right track effortless.",
+    "what-we-did": [
+      "Rebrand existing app and prepare it for new market",
+      "Implement new features and slim down existing ones",
+      "Improve code quality",
+      "Analyze existing front-end code and provided refactoring plan",
+      "Reimplement and refactored existing features to make them work with new database structure",
+      "Advanced search module for songs based on multiple criteria",
+      "Built-in player of uploaded songs",
+      "Integrated online payments (Stripe) and accounting (Xero)",
+      "Convenient and functional user interface with the use of React technology",
+      "Provide technical expertise",
+      "Integration with Amazon S3",
+      "Advanced tagging system"
+    ],
+    "what-they-achieved": [
+      "Full company rebrand",
+      "Redesign of existing app",
+      "Redefined, simplified UX and music search logic",
+      "Creation of new functional interface",
+      "Recruitment of professional composers from around the world",
+      "Successful launch in Australasia",
+      "Web application winning first customers"
+    ],
+    "tech-stack": [
+      "Ruby",
+      "Rails",
+      "Bootstrap",
+      "React JS",
+      "Elasticsearch"
+    ],
+    "project-id": 9,
+    "color-start": "#00c0a5",
+    "color-end": "#00c0a5"
   }
 ]
