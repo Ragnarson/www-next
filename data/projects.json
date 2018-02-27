@@ -111,10 +111,10 @@
     "id": 10,
     "name": "Crypto Investia",
     "link": "https://cryptoinvestia.io/",
-    "logo": "crypto.png",
+    "logo": "blank.png",
     "testimonial": {
-      "author": "Tomasz Rozmus, CEO",
-      "text": "<p>We are very happy and satisfied with our cooperation with Ragnarson. We were able to 100% focus on a core of our business as all technological stack was covered by Ragnarson team. The thing that I really appreciate is high understanding of our business needs and preparation of non-trivial, non-standard technical solutions as a response to them. It is especially important on virgin markets, like blockchain and cryptocurrencies.</p>",
+      "author": "Tomasz Rozmus, CEO Crypto Investia",
+      "text": "We are very happy and satisfied with our collaboration with Ragnarson. We were able to focus 100% on our core business as the technological stack was covered by the Ragnarson team. What I really appreciate is the clear understanding of our business needs and the preparation of non-trivial, non-standard technical solutions as a response to them. It is especially important in virgin markets, like blockchain and cryptocurrencies.",
       "avatar": "10.png"
     }
   }
