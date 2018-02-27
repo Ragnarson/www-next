@@ -106,5 +106,16 @@
       "text": "<p>Ragnarson’s well-structured, agile workflow is by far the best I've experienced. They have a unique corporate philosophy focused on communication, mutual respect, openness and commitment to each project. This was absolutely reflected in the positive interactions I had with staff members as well as the quality of work delivered.</p>",
       "avatar": "9.png"
     }
+  },
+  {
+    "id": 10,
+    "name": "Crypto Investia",
+    "link": "https://cryptoinvestia.io/",
+    "logo": "crypto.png",
+    "testimonial": {
+      "author": "Tomasz Rozmus, CEO",
+      "text": "<p>We are very happy and satisfied with our cooperation with Ragnarson. We were able to 100% focus on a core of our business as all technological stack was covered by Ragnarson team. The thing that I really appreciate is high understanding of our business needs and preparation of non-trivial, non-standard technical solutions as a response to them. It is especially important on virgin markets, like blockchain and cryptocurrencies.</p>",
+      "avatar": "10.png"
+    }
   }
 ]

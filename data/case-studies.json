@@ -276,5 +276,28 @@
     "project-id": 9,
     "color-start": "#00c0a5",
     "color-end": "#00c0a5"
+  },
+  {
+    "slug": "crypto-investia",
+    "name": "Crypto Investia",
+    "image": "crypto-investia",
+    "what-it-does": "Crypto Investia is a new kind of token-based organization. It allows regular people to invest in cryptocurrencies markets without the time-consuming process of learning tech and market. Funds collected during Initial Coin Offering are invested mostly in crypto assets. Funds are managed by people with deep practical knowledge and track record both from cryptos and financial markets. Token holders are allowed to participate in annual profit share.",
+    "business-initiatives": "Need to create ERC-20 compliant token and Initial Coin Offering smart contract for its distribution.",
+    "what-we-did": [
+
+    ],
+    "what-they-achieved": [
+      "Ability to collect investments that is easy to handle by not tech savvy investor for whom it is a first interaction with cryptocurrencies market"
+    ],
+    "tech-stack": [
+      "Ethereum blockchain",
+      "ERC-20 tokens",
+      "Solidity",
+      "Truffle",
+      "OpenZeppelin"
+    ],
+    "project-id": 10,
+    "color-start": "#51a4da",
+    "color-end": "#51a4da"
   }
 ]
