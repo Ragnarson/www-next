@@ -283,7 +283,7 @@
     "image": "crypto-investia",
     "what-it-does": "<a href='https://cryptoinvestia.io/'>Crypto Investia</a> is a new kind of token-based organization. It allows regular people to invest in cryptocurrency markets without the time-consuming process of learning about the technology and market. Funds collected during Initial Coin Offering are invested mostly in crypto assets. Investments are made by people with extensive practical knowledge and track records, from both the crypto and financial markets. Token holders are allowed to participate in the annual profit share.",
     "business-initiatives": "The need to create an ERC-20 compliant token and Initial Coin Offering smart contract for its distribution.",
-    "what-we-did-paragraphs": [
+    "what-we-did": [
       "Developed an ERC-20 compliant token and an Initial Coin Offering smart contract responsible for distribution of the token.",
       "As customers of Crypto Investia are not tech savvy crypto users we had to find a solution to make their investment as easy as possible.",
       "We also made it independent from Ether price fluctuation. As a result, the only accepted payment option in ICO is a special token bound to local fiat currency."
