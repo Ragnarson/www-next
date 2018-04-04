@@ -20,6 +20,12 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+
+  li {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .clients-logos-list {
