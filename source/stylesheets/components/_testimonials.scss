@@ -52,6 +52,10 @@
     @include media-breakpoint-down(sm) {
       min-height: 625px;
     }
+
+    @include media-breakpoint-down(xs) {
+      min-height: 770px;
+    }
   }
 }
 

@@ -3,7 +3,7 @@ div class="testimonials text-center"
     h1 class="display-4 pb-5"
       | But don't just take our word for it
 
-    div class="carousel slide testimonial pt-4 pb-3" data-ride="carousel" id="testimonial-carousel" data-interval="6000000"
+    div class="carousel slide testimonial pt-4 pb-3" data-ride="carousel" id="testimonial-carousel" data-interval="60000"
       div class="carousel-inner" role="listbox"
         - projects = data.projects.select { |project| project.testimonial }
         - projects.each_with_index do |project, index|
