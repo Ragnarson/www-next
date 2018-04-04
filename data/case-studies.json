@@ -301,5 +301,61 @@
     "project-id": 10,
     "color-start": "#51a4da",
     "color-end": "#51a4da"
+  },
+  {
+    "slug": "bookingsync-platform",
+    "name": "The BookingSync's platform",
+    "image": "bookingsync-platform",
+    "what-it-does": "Completely modular hosting solution. Built without a single point of failure. Deployments and basic application-related tasks may be performed without administrators assistance. The platform is completely vendor agnostic and due to the extensive set of automated tests, it can be easily migrated to any other provider.",
+    "business-initiatives": "BookingSync needed to migrate its fast-growing set of applications to the infrastructure customized to their needs. Current infrastructure was outgrown by the application. Due to environment limitations, ruby was locked to the same version for all the applications. It was impossible to upgrade any stack component (database, monitoring, load balancer) without upgrading the whole stack. Horizontal scaling was expensive time-wise - it took up to an hour to add a new server.",
+    "what-we-did": [
+      "Kubernetes based (Deis Workflow) application hosting platform",
+      "Custom Deis components to ease developers with common tasks",
+      "Custom frontend to overcome Deis and AWS ELB limitations",
+      "Easy and fast deployments with git, docker images or plain Dockerfile",
+      "Any kind of application can be deployed on the platform, regardless of the language or the type",
+      "Support for multiple replicated PostgreSQL and Redis clusters with easy, seamless failover",
+      "ELK-based centralized log storage for applications and system services",
+      "Detailed monitoring of each service",
+      "Repeatable deployment of each component with Terraform and Chef",
+      "Detailed documentation for each component",
+      "Migration from previous provider with minimal downtime for each service",
+      "On-call duty and 24/7 support"
+    ],
+    "what-they-achieved": [
+      "Faster deployments",
+      "Better control over infrastructure",
+      "Modular infrastructure",
+      "Easy and quick scaling",
+      "Data separation",
+      "Better application performance",
+      "24/7 proactive support",
+      "No vendor lock-in",
+      "Service consolidation",
+      "Easier future expandability",
+      "Lower cost of infrastructure support in comparison to the internal team"
+    ],
+    "tech-stack": [
+      "AWS",
+      "Chef",
+      "DataDog",
+      "Deis Workflow",
+      "Docker",
+      "Elastic",
+      "Etcd",
+      "Flannel",
+      "HAProxy",
+      "Kibana",
+      "Kubernetes",
+      "Logstash",
+      "Nginx",
+      "PostgreSQL",
+      "Redis",
+      "Terraform",
+      "Ubuntu"
+    ],
+    "project-id": 1,
+    "color-start": "#4CC7FF",
+    "color-end": "#14A1DF"
   }
 ]
