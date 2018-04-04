@@ -38,7 +38,20 @@
 
 .carousel {
   .testimonial-card {
-    min-height: 313px;
+    min-height: 370px;
+
+    @include media-breakpoint-down(md) {
+      min-height: 510px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      min-height: 610px;
+      padding: 3 * $spacer-y 2 * $spacer-x !important;
+    }
+
+    @include media-breakpoint-down(sm) {
+      min-height: 625px;
+    }
   }
 }
 
