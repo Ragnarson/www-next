@@ -117,5 +117,16 @@
       "text": "We are very happy and satisfied with our collaboration with Ragnarson. We were able to focus 100% on our core business as the technological stack was covered by the Ragnarson team. What I really appreciate is the clear understanding of our business needs and the preparation of non-trivial, non-standard technical solutions as a response to them. It is especially important in virgin markets, like blockchain and cryptocurrencies.",
       "avatar": "10.png"
     }
+  },
+  {
+    "id": 11,
+    "name": "Comgy",
+    "link": "https://comgy.io/en-de/",
+    "logo": "comgy.png",
+    "testimonial": {
+      "author": "CTO, Comgy",
+      "text": "WeThe solution successfully runs 500 gateways and processes large amounts of user data. Its frontend is user-friendly and its backend is stable. Rather than simply completing tasks, Ragnarson asks helpful questions and makes valuable suggestions to improve the product. Their support is invaluable.",
+      "avatar": "11.png"
+    }
   }
 ]
