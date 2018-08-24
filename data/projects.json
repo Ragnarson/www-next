@@ -120,12 +120,12 @@
   },
   {
     "id": 11,
-    "name": "Comgy",
-    "link": "https://comgy.io/en-de/",
-    "logo": "comgy.png",
+    "name": "Software Solutions for Meter installation",
+    "link": "",
+    "logo": "blank.png",
     "testimonial": {
-      "author": "CTO, Comgy",
-      "text": "WeThe solution successfully runs 500 gateways and processes large amounts of user data. Its frontend is user-friendly and its backend is stable. Rather than simply completing tasks, Ragnarson asks helpful questions and makes valuable suggestions to improve the product. Their support is invaluable.",
+      "author": "CTO",
+      "text": "The solution successfully runs 500 gateways and processes large amounts of user data. Its frontend is user-friendly and its backend is stable. Rather than simply completing tasks, Ragnarson asks helpful questions and makes valuable suggestions to improve the product. Their support is invaluable.",
       "avatar": "11.png"
     }
   }

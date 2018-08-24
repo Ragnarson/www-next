@@ -359,10 +359,10 @@
     "color-end": "#2DB859"
   },
   {
-    "slug": "comgy",
-    "name": "Comgy",
-    "image": "comgy",
-    "what-it-does": "<a href='https://comgy.io/en-de/'>Comgy</a> provides software solutions for meter installation and maintenance. Applied by energy suppliers and submetering providers in the housing industry. They offer a mobile tool for meter installation, seamless documentation and automated data logging. An additional desktop application enables control and maintenance of gateways and meters.",
+    "slug": "meter-installation",
+    "name": "Software Solutions for Meter installation",
+    "image": "company",
+    "what-it-does": "Company that provides software solutions for meter installation and maintenance. Applied by energy suppliers and submetering providers in the housing industry. They offer a mobile tool for meter installation, seamless documentation and automated data logging. An additional desktop application enables control and maintenance of gateways and meters.",
     "business-initiatives": "Develop a platform for passing data from meters to a gateway, sending it to a server for processing, and utilizing it for cost allocation",
     "what-we-did": [
       "Replace existing ASP.NET prototype with production-grade backend written in Ruby on Rails.",
