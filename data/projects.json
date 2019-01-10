@@ -116,5 +116,16 @@
       "text": "We are very happy and satisfied with our collaboration with Ragnarson. We were able to focus 100% on our core business as the technological stack was covered by the Ragnarson team. What I really appreciate is the clear understanding of our business needs and the preparation of non-trivial, non-standard technical solutions as a response to them. It is especially important in virgin markets, like blockchain and cryptocurrencies.",
       "avatar": "10.png"
     }
+  },
+  {
+    "id": 11,
+    "name": "Growthmentor",
+    "link": "https://www.growthmentor.io/",
+    "logo": "blank.png",
+    "testimonial": {
+      "author": "Foti Panagio, Founder at Growthmentor.io",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et ligula sit amet leo dignissim facilisis eu luctus felis. Nulla in arcu dignissim, convallis nibh eu, viverra risus. Ut dignissim fermentum facilisis. Donec et diam quam. Maecenas malesuada feugiat accumsan. Ut eu suscipit tortor. Sed egestas sapien vitae ante lacinia, non hendrerit sem cursus. Donec tempor maximus purus non eleifend. Praesent et lacus vestibulum, luctus lectus semper, rhoncus neque. ",
+      "avatar": "11.png"
+    }
   }
 ]
