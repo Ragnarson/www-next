@@ -359,15 +359,15 @@
     "color-end": "#2DB859"
   },
   {
-    "slug": "meter-installation",
-    "name": "Software Solutions for Meter installation",
+    "slug": "sensor-management",
+    "name": "Software Solutions for IoT Sensor Management",
     "image": "company",
-    "what-it-does": "Company that provides software solutions for meter installation and maintenance. Applied by energy suppliers and submetering providers in the housing industry. They offer a mobile tool for meter installation, seamless documentation and automated data logging. An additional desktop application enables control and maintenance of gateways and meters.",
-    "business-initiatives": "Develop a platform for passing data from meters to a gateway, sending it to a server for processing, and utilizing it for cost allocation",
+    "what-it-does": "Company that provides software solutions for IoT sensor installation and maintenance. Applied by energy suppliers and the housing industry. They offer a mobile tool for sensor installation, seamless documentation and automated data logging. An additional desktop application enables control and maintenance of gateways and sensors.",
+    "business-initiatives": "Develop a platform for passing data from sensors to a gateway, sending it to a server for processing and analysis",
     "what-we-did": [
       "Replace existing ASP.NET prototype with production-grade backend written in Ruby on Rails.",
-      "Single-page web application for the platform management and meters installation.",
-      "Support for over 95% of meters available on the market.",
+      "Single-page web application for the platform management and sensor installation.",
+      "Support for over 95% of sensors available on the market for the industry.",
       "Code reviews in additional projects.",
       "Actively participate in the design and planning of the platform advancement."
     ],
