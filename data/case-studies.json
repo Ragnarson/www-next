@@ -388,5 +388,31 @@
     "project-id": 11,
     "color-start": "#51a4da",
     "color-end": "#51a4da"
+  },
+  {
+    "slug": "growthmentor",
+    "name": "GrowthMentor",
+    "image": "growthmentor",
+    "what-it-does": "Growthmentor is an on-demand platform where you can connect with hand-picked growth experts for 1:1 call to help grow their business. It’s an easy way for startups to get tactical advice from curated growth marketers and tech startup founders. The user can filter mentors based on what tools they're proficient at and book screenshare calls with them instantly. On the other hand, provides potential mentors an easy to use platform for sharing the knowledge and an additional source of income.",
+    "business-initiatives": "They needed a team to put their vision into frames. Experienced enough, to quickly settle it on the market.",
+    "what-we-did": [
+      "Built a responsive frontend based on mockups designed by the client.",
+      "Design and develop a backend application.",
+      "Dynamic features and integrations - e.g. schedule a call from the page.",
+      "Assistance from the earliest stages of designing the workflow that shortens time to market."
+    ],
+    "what-they-achieved": [
+      "MVP in just 6 months"
+    ],
+    "tech-stack": [
+      "Ruby on Rails",
+      "Vue.js",
+      "PostgreSQL",
+      "Sidekiq",
+      "Redis"
+    ],
+    "project-id": 12,
+    "color-start": "#51a4da",
+    "color-end": "#51a4da"
   }
 ]

@@ -127,5 +127,16 @@
       "text": "The solution successfully runs 500 gateways and processes large amounts of user data. Its frontend is user-friendly and its backend is stable. Rather than simply completing tasks, Ragnarson asks helpful questions and makes valuable suggestions to improve the product. Their support is invaluable.",
       "avatar": "11.png"
     }
+  },
+  {
+    "id": 12,
+    "name": "GrowthMentor",
+    "link": "https://www.growthmentor.com/",
+    "logo": "blank.png",
+    "testimonial": {
+      "author": "Foti Panagio, CEO",
+      "text": "Ragnarson’s well-structured, agile workflow is by far the best I’ve experienced. They have a unique corporate philosophy focused on communication, mutual respect, openness and commitment to each project. This was absolutely reflected in the positive interactions I had with staff members as well as the quality of work delivered.",
+      "avatar": "12.png"
+    }
   }
 ]
