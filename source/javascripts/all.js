@@ -1,5 +1,6 @@
 //= require jquery
 //= require tether
 //= require bootstrap-sprockets
-//= require analytics
+//= require vendor/cookieconsent.min
+//= require cookieconsent
 //= require app

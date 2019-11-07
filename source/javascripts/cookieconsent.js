@@ -1,7 +1,9 @@
-<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-<script>
 window.addEventListener('load', function () {
+  function initAnalytics() {
+    gtag('js', new Date());
+    gtag('config', 'UA-11839548-1');
+  }
+
   window.cookieconsent.initialise({
     'palette': {
       'popup': {
@@ -23,18 +25,17 @@ window.addEventListener('load', function () {
     },
 
     onInitialise: function (status) {
-      var didConsent = this.hasConsented();
-      if (didConsent && status == 'allow') {
+      if (this.hasConsented() && status == 'allow') {
+        window.analyticsLoaded = true
         initAnalytics()
       }
     },
 
     onStatusChange: function (status, chosenBefore) {
-      var didConsent = this.hasConsented();
-      if (didConsent && status == 'allow') {
+      if (this.hasConsented() && status == 'allow' && !window.analyticsLoaded) {
+        window.analyticsLoaded = true
         initAnalytics()
       }
     }
   })
 });
-</script>
