@@ -3,29 +3,38 @@ div class="footer-nav"
     div class="row"
       div class="col-lg-2 col-md-2 text-center"
         = image_tag("ragnarson-logo.svg", class: "footer-nav-logo")
-      div class="col-lg-5 col-md-10"
+      div class="col-lg-3 col-md-10"
         = partial "components/footer/sitemap"
-      div class="col-lg-3 col-md-6 footer-nav-contact"
-        div
-          ' You can contact us at
-          = mail_to "hello@ragnarson.com", "hello@ragnarson.com", class: "link-primary", ga: { on: "click", event: { category: "Email Link", action: "click", label: "hello@ragnarson.com" } }
-        div class="footer-nav-info-padding"
-          pre
-            span class="footer-nav-info"
-              | Ragnarson sp. z o.o.
-                ul. Targowa 35, 90-043 Łódź
-                KRS: 0000365781
-                NIP: 7272768902
-                REGON: 100960955
-        div class="footer-nav-contact-social"
-          = link_to "https://twitter.com/ragnarsoncom"
-            i class="icon-twitter"
-          = link_to "https://github.com/ragnarson"
-            i class="icon-github"
-          = link_to "https://facebook.com/ragnarson"
-            i class="icon-facebook"
-          = link_to "https://www.linkedin.com/company/560916"
-            i class="icon-linkedin"
+      div class="col-lg-5 col-md-6 footer-nav-contact"
+        div class="row"
+          div class="col-lg-6"
+            div
+              pre
+                span class="footer-nav-info"
+                  | Ragnarson sp. z o.o.
+                    ul. Targowa 35, 90-043 Łódź
+                    KRS: 0000365781
+                    NIP: 7272768902
+                    REGON: 100960955
+          div class="col-lg-6"
+            div
+              pre
+                span class="footer-nav-info"
+                  | Alte Jakobstrasse 92
+                    Berlin 10179
+                    Germany
+            div You can contact us at
+            = mail_to "hello@ragnarson.com", "hello@ragnarson.com", class: "link-primary", ga: { on: "click", event: { category: "Email Link", action: "click", label: "hello@ragnarson.com" } }
+
+            div class="footer-nav-contact-social"
+              = link_to "https://twitter.com/ragnarsoncom"
+                i class="icon-twitter"
+              = link_to "https://github.com/ragnarson"
+                i class="icon-github"
+              = link_to "https://facebook.com/ragnarson"
+                i class="icon-facebook"
+              = link_to "https://www.linkedin.com/company/560916"
+                i class="icon-linkedin"
       div class="col-lg-2 col-md-offset-3 col-md-3 col-sm-4 col-xs-6"
         div class="text-right"
           a href="https://clutch.co/profile/ragnarson" target="_blank"
