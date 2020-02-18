@@ -41,13 +41,36 @@
   background: url('/images/ragnarson-logo-default.svg') center no-repeat;
 }
 
+.navbar {
+
+  &.navbar-dark.scrolled {
+    background-color: $white;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.1);
+
+    .navbar-nav .nav-link {
+      color: $color-dark !important;
+    }
+
+    .navbar-nav {
+      background: $color-light;
+    }
+
+    .icon-menu:before {
+      color: $color-dark;
+    }
+
+    .navbar-logo {
+      background: url('/images/ragnarson-logo-default.svg') center no-repeat;
+    }
+
+  }
+}
+
 // Navbar light with transparent background
 .navbar-transparent {
   .navbar {
-    position: absolute;
-    left: 0;
-    right: 0;
-    z-index: 2;
+
+
 
     &.navbar-dark .navbar-nav .nav-link {
       color: $color-light;
